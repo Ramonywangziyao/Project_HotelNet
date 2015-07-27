@@ -1,0 +1,6 @@
+framework module MAOFlipViewController {
+  umbrella header "Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

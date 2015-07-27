@@ -1,0 +1,2869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00271ACCC13DE3DA74D8B6A2 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EA85EA56879F623A5113D /* AFURLRequestSerialization.m */; };
+		0100E5D2CA332DE6BD3C37F5 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4A533D4D790B075F37C4E /* UIAlertView+AFNetworking.m */; };
+		017939E18F59B83F3D43910F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		018039F6D768F34C674C3402 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5717ED9DE5D66C87B4490C90 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		042A0B95EDD68D7B3C23BCC1 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F29012A6EE201633810514 /* UIButton+AFNetworking.m */; };
+		0455A48639CA179E8B717DB3 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221410BD190071BEC02F8FBF /* Download.swift */; };
+		0638233838379B3EEC0790BD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE92078EF6E186E4B3CFC82F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06879D44C98F793039A69602 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 65862346FABCCB35269DDC5A /* AFURLResponseSerialization.m */; };
+		06ADE4CF6FBFB77D8A065CB1 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FCFB90145931C9A9B31A2C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076B45141CBE9BBE72669413 /* MAOPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D5421CE68E30169EBD68B /* MAOPanGestureRecognizer.m */; };
+		07AB8CA7A084AD18866A96EE /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0770DF7E68455EAA9B26A2A /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08543988CC250BBDE9EDD481 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BB1CEC1AFE47C9FBEBD1F2 /* AFNetworkActivityIndicatorManager.m */; };
+		091FFE258CDD90EE4308F5CA /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D8169C56CF47038B48F8D2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5680B4E830D74FBB90A1FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		0BE141F003CD6CFEE0649905 /* MAOFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0870CB9BA650AAA80454936 /* MAOFlipViewController.m */; };
+		0C45925A3EAF3FFCA6F2875B /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91534D8216A3FB56204C25F3 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D362D1B4119E62B018717BB /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 65845DFB51C99EBBD9415F2D /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D77CC1DFA58D74E82B38814 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF59C05D77A58204CB2CAF /* AFNetworkReachabilityManager.m */; };
+		11E1586611CE7AFEB98D945B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		11F34FC3D4A4CC8E1B7EDC8E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 861CD2DF2AC72CDC8A93EBD2 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134A2293A84E87BC055D1D86 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD1ED4D7B582E8D9A45E9F /* UIImageView+AFNetworking.m */; };
+		149FCAEF9375921D00535AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		14D3E650B205C5E5AD4883ED /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F29012A6EE201633810514 /* UIButton+AFNetworking.m */; };
+		17B9F5D5E9D429BC69D15D00 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 92649EC9ABD55EE814153F38 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3039E48487547516EF58B3 /* Pods-Project_HotelNetTests-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11186F291A9C258F03E13453 /* Pods-Project_HotelNetTests-AFNetworking-dummy.m */; };
+		1AA17A304218B2CB299717DF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7878C7CF311C0257EAEFC /* Request.swift */; };
+		1B8748D2739011E281BFB2B7 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7878C7CF311C0257EAEFC /* Request.swift */; };
+		1C944E908E4EA1710838C87E /* Pods-AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 422F0413C048FF486B3C2407 /* Pods-AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D727E427019B7FBFB582143 /* MAOPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D5421CE68E30169EBD68B /* MAOPanGestureRecognizer.m */; };
+		1D80837A174A2F9168CEA808 /* Pods-Project_HotelNet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FDAD589D7BD70EBD357121 /* Pods-Project_HotelNet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E639343162B052D55311B41 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7454ECA61C75DFFD5C4DDE /* Upload.swift */; };
+		1EDEF96443DF9E26BB46F978 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5259E15FFB6A8FD306A5020 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B43E788C3895A4BEC0FF59 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B895B2E4352F79E9D7F9CC /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FC3945784FC8D0A4000EFA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F29012A6EE201633810514 /* UIButton+AFNetworking.m */; };
+		22337F96E6E6B52A41620135 /* MAOPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D5EB95D8DF7F6A84B4D8B0 /* MAOPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22889BDC4A25965795AFCE4E /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 92649EC9ABD55EE814153F38 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23A47776F51BE2F6E7787553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		24C59ED109A343676EC5504B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 029C391EA49503D2981D4395 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E3970DE811FE45C617A617 /* MAOFlipInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7EFEB6C73378F51FE848FD /* MAOFlipInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2895B48E11B762E7D2AF0041 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E5C8A71368AB2A8D07932 /* Manager.swift */; };
+		28D17F7E6EAC3A49D06CCBDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		291C7C3BE5F0C0A61F4C7EE2 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BB0F064023DC537CA7BBC /* UIProgressView+AFNetworking.m */; };
+		2A47A029210D7646C1967196 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5E2F4A7A75FAC26AC31B1 /* Validation.swift */; };
+		2AD40FA04DD587B894928E2F /* Pods-Project_HotelNet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F429660276CFE4E15CA0CA /* Pods-Project_HotelNet-dummy.m */; };
+		2B6240529D47B0C45D7DF47A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8646DC7FAAAED3A140ECB3E2 /* CoreGraphics.framework */; };
+		2C9A823A5227119091F5315B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A6F6B9AE1BB3EB1727365 /* AFURLSessionManager.m */; };
+		2D2ADADAFBC6FE1E3AA2E6F8 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0770DF7E68455EAA9B26A2A /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D43A53FC27D5CB74B2E9EEC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09575B376BDE3779101979E9 /* ResponseSerialization.swift */; };
+		2D9951F69062A6B66D6D19EE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BC71C9E39F1710F797B939 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A9B4A13F69946050BCB4B9 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE92078EF6E186E4B3CFC82F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317284E9B8257EA416697317 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 861CD2DF2AC72CDC8A93EBD2 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3191743AF030A14E6F0DE22E /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D987252D6E4FF7804EC53F7 /* UIWebView+AFNetworking.m */; };
+		371B07CE15E0D0C4DFF9CA88 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD32361E1B61C90C13C5350 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D900B7639CA0EE34A01D80 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1C235E571F746603C2940C /* AFHTTPRequestOperation.m */; };
+		3AB8DCAEFF6C47605F8F99BB /* Pods-Project_HotelNet-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09E3F3F2A01B8E462B64F5A /* Pods-Project_HotelNet-AFNetworking-dummy.m */; };
+		3C45DFD5952297536014AB7C /* Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C211766926497073B9962963 /* Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m */; };
+		3D11EA9436C764A3DC020923 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5282442F304D8C97C4714F5 /* Alamofire.swift */; };
+		3E1E4FAD9437C43310E58234 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5717ED9DE5D66C87B4490C90 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8F1D15BFBE59E1673F0A2C /* MAOFlipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC77ABA429D3D73BC474479 /* MAOFlipViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EC9543BEE55262347BEC72A /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5259E15FFB6A8FD306A5020 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F64154BCBBF0CF15D2B10F3 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5E2F4A7A75FAC26AC31B1 /* Validation.swift */; };
+		3FCBC96F824DEE5A286CA123 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F5576FB1850D1E5ED27806 /* AFHTTPSessionManager.m */; };
+		415340DC24B242D1C6FFC8A8 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221410BD190071BEC02F8FBF /* Download.swift */; };
+		42FC2ADFD464495F0AB1A43D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B895B2E4352F79E9D7F9CC /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437B85EAEB4FD122C1DE0F4F /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4980ECDAF41E296DDCA68 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446C8DD6F041510099A8F265 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7454ECA61C75DFFD5C4DDE /* Upload.swift */; };
+		448A7EF90304FE97019B22CA /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09575B376BDE3779101979E9 /* ResponseSerialization.swift */; };
+		454ADBE538F0E0353E8CE625 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1C235E571F746603C2940C /* AFHTTPRequestOperation.m */; };
+		457F4651CBDD771B3F846A1B /* Pods-Project_HotelNetTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481B41B9401C90807203372 /* Pods-Project_HotelNetTests-dummy.m */; };
+		4640AB3CCE6D91ECE011CC62 /* Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 980057042336A4993DAC6390 /* Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479B1DB23FA8C4C205B6F149 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD1FC08D9BA8CBBBEA909A /* SwiftyJSON.swift */; };
+		4ACC8811116FAD48D5267BDE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A6F6B9AE1BB3EB1727365 /* AFURLSessionManager.m */; };
+		4B01DC9C82DB8E8D776CEBF1 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7454ECA61C75DFFD5C4DDE /* Upload.swift */; };
+		4E06A78A05755E3924903C56 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 420088B36BB32DFF8C2F45BA /* Pods-dummy.m */; };
+		527908A31C0D571F19B0EF5F /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E985989581BD4E32618D4200 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E67A572EE0FD144720921D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 400924EB3C33B5C6A01D527D /* AFHTTPRequestOperationManager.m */; };
+		576BC58ACD1B2EB591C6B624 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BC71C9E39F1710F797B939 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591F700F5A7E52F5A1042699 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BB1CEC1AFE47C9FBEBD1F2 /* AFNetworkActivityIndicatorManager.m */; };
+		593E32F7A9FD4EE634F0AFE0 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22794DBB29F03DDAFB0E06D /* ParameterEncoding.swift */; };
+		5ACC98E05E3C529FAF2A9ED4 /* MAOFlipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC77ABA429D3D73BC474479 /* MAOFlipViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEF0F14E526FB002299A6A3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D82CABA15418BD8BFFF1EB1 /* MobileCoreServices.framework */; };
+		5CF33A666435A5B58B19533E /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E985989581BD4E32618D4200 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF8ADF3CA02D181A5EDE65E /* Pods-Project_HotelNet-MAOFlipViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A239E7455A8FD1DDF6B40CE6 /* Pods-Project_HotelNet-MAOFlipViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E0C8A34A6DA08AB87297A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		5FC7953375EE6A1F14362FB1 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5717ED9DE5D66C87B4490C90 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		609EA908FC4CB73E0D7A4BD2 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4980ECDAF41E296DDCA68 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		617B92AC4CFB4E7496B885D8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31B62A3B16A87FF85EAB58 /* UIRefreshControl+AFNetworking.m */; };
+		6252B8F9FFA0981326BFAF9F /* Pods-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4606C1C0CA0AC897C8A97 /* Pods-Alamofire-dummy.m */; };
+		6254F626086B4C905C8D5DB1 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 92649EC9ABD55EE814153F38 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BC8EC24F6DB93787F93EC2 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7A6AC8A2B2605732121F80 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F728CB288A7E73FF7B6F89 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7A6AC8A2B2605732121F80 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B80E90BB7C8D3AB78B77F2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FCFB90145931C9A9B31A2C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68AAB8CA3E53100C9A5031A3 /* Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA3DBD33E9E148C2F9B931D /* Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6944755C5238DE543E430771 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 400924EB3C33B5C6A01D527D /* AFHTTPRequestOperationManager.m */; };
+		6AD999FE78380189B964959C /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 251149E485AAD6013FF8DC96 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B68E8C3AFADB3DBAA42E977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		6D194D035DB8EE0B13157DC4 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 65845DFB51C99EBBD9415F2D /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2081D3A257536569888DE9 /* Pods-Project_HotelNetTests-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6B5208061AF6413D0776B /* Pods-Project_HotelNetTests-SwiftyJSON-dummy.m */; };
+		6EAE94683B5060E0EC11632C /* MAOFlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E086ABE2F46059DDD6507DF /* MAOFlipTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EFB60E504D18C9A4CA9FFDC /* MAOPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D5EB95D8DF7F6A84B4D8B0 /* MAOPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F11AB5753A0E353F7E15D27 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D82CABA15418BD8BFFF1EB1 /* MobileCoreServices.framework */; };
+		6F435F0545231ED4708EDA0C /* MAOFlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E086ABE2F46059DDD6507DF /* MAOFlipTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FAF42F12405B7B8A1129D0E /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FCFB90145931C9A9B31A2C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D48419EEC655A23E30417D /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E985989581BD4E32618D4200 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EC995BFA88BAE4B25F179A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD32361E1B61C90C13C5350 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		744B0CD7E300F2C3D3F99665 /* Pods-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE964F4FBECB9D15E1A095A8 /* Pods-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7461C8E017F9D60DB8E15B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		770B8216B12AA8F37BA1A983 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D8169C56CF47038B48F8D2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778026838038E2503D4572E9 /* MAOFlipInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B392170A85512A52E59A1 /* MAOFlipInteraction.m */; };
+		79515A69E5908AD522899531 /* Pods-Project_HotelNet-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C65EA43551680E98FB7FC5A7 /* Pods-Project_HotelNet-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A403573C343D355A5BE8C3 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7A6AC8A2B2605732121F80 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACAF1F5F4743044BA0BE983 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22794DBB29F03DDAFB0E06D /* ParameterEncoding.swift */; };
+		7BB13125851B2035C52CD7C8 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5259E15FFB6A8FD306A5020 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D16A610787265F5D68EBAA6 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E614BDB1560412E1E5D71B /* AFURLConnectionOperation.m */; };
+		7DE4ECA011422EEAF0A4873D /* Pods-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB2FC3F2B1A8BB32E1B606C /* Pods-AFNetworking-dummy.m */; };
+		7E8C63F3ECF3E85FC9541C5E /* MAOPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D5421CE68E30169EBD68B /* MAOPanGestureRecognizer.m */; };
+		804287DE740D250AEDF9082D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F5576FB1850D1E5ED27806 /* AFHTTPSessionManager.m */; };
+		823A115A7D2B358D5478A981 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D12A92AEE497AE769E37CDCE /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		830D996BB229E8E3AC6FBC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		833C7B3A82F5725A0C5F3F3E /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 65845DFB51C99EBBD9415F2D /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837B7E7D9F0FD54107193D91 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E614BDB1560412E1E5D71B /* AFURLConnectionOperation.m */; };
+		83F5E91B013946C0F47EA23E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC873616D37BD8A0E6D54D1F /* AFSecurityPolicy.m */; };
+		8657129552A49D33EA0BDC6B /* Pods-MAOFlipViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 822F89603B99FFAFB897B0C2 /* Pods-MAOFlipViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E067572D96C601E1F768E8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31B62A3B16A87FF85EAB58 /* UIRefreshControl+AFNetworking.m */; };
+		8B8156793E19F211BDD22D49 /* MAOFlipInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B392170A85512A52E59A1 /* MAOFlipInteraction.m */; };
+		8C95D580158ED48A6BA46FD2 /* Pods-Project_HotelNetTests-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0356FD60755846B0AEBCE1A /* Pods-Project_HotelNetTests-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF67B313316DA50F386209D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC873616D37BD8A0E6D54D1F /* AFSecurityPolicy.m */; };
+		8E6DC648F3D018CE9A75F714 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD1ED4D7B582E8D9A45E9F /* UIImageView+AFNetworking.m */; };
+		8EE8B98184C7038135710A1A /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E614BDB1560412E1E5D71B /* AFURLConnectionOperation.m */; };
+		8FE4BB116534843528B4FBD5 /* Pods-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CA85478D020F2AAADCEEC0 /* Pods-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		902A74C55FD1B7641B637500 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605374284BF840D8B597F041 /* SystemConfiguration.framework */; };
+		90C40F423E3270023582758A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D12A92AEE497AE769E37CDCE /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941B553F87193F4FDD92171E /* MAOFlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E086ABE2F46059DDD6507DF /* MAOFlipTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9726A3B20D688D035472284E /* Pods-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D6B7EFCB51660593E59810 /* Pods-SwiftyJSON-dummy.m */; };
+		99612A28D5372C6EF952261D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		99A5A807C856C4B3CDE3CA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		9BC30C4A06EE138C3B875F3F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EA85EA56879F623A5113D /* AFURLRequestSerialization.m */; };
+		9CD4A5B93B96653A8A754523 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605374284BF840D8B597F041 /* SystemConfiguration.framework */; };
+		9D2417F11F2A9B1019269C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		9D4565110BA345889BE16C7C /* MAOFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0870CB9BA650AAA80454936 /* MAOFlipViewController.m */; };
+		9E06CC23ECA0094C40F2E651 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA682AE31B2D6D1FF0DB6BF4 /* Security.framework */; };
+		9F6E973F726168A35AE075FB /* Pods-Project_HotelNetTests-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CCDF805DE28D9DDCBCA2C /* Pods-Project_HotelNetTests-Alamofire-dummy.m */; };
+		A01ADA9637886ABA3E384061 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31B62A3B16A87FF85EAB58 /* UIRefreshControl+AFNetworking.m */; };
+		A3BD448CCEDA98500C308FB1 /* MAOFlipInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7EFEB6C73378F51FE848FD /* MAOFlipInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4244217EB5FF53B80A54299 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F5576FB1850D1E5ED27806 /* AFHTTPSessionManager.m */; };
+		A4E9658B63B0BF90F88C90D5 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22794DBB29F03DDAFB0E06D /* ParameterEncoding.swift */; };
+		A7758753C855A53A482BA085 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09575B376BDE3779101979E9 /* ResponseSerialization.swift */; };
+		AA7D066790DB09F2109F45A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5E2F4A7A75FAC26AC31B1 /* Validation.swift */; };
+		AC41AFEBF1D6F07DAFFE2B2B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5282442F304D8C97C4714F5 /* Alamofire.swift */; };
+		AE960E9AC639F044AE3BB8A9 /* MAOFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0C773CCA47371AC6FC8F9 /* MAOFlipTransition.m */; };
+		AF42F496C2C4A25D4DB24D8E /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D987252D6E4FF7804EC53F7 /* UIWebView+AFNetworking.m */; };
+		B291D2C94827CB121D9BB1F2 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 251149E485AAD6013FF8DC96 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A9AF26FB5251DAE27D9C72 /* Pods-Project_HotelNet-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D17CEE993E939C2D17E8E8 /* Pods-Project_HotelNet-SwiftyJSON-dummy.m */; };
+		B550D6B1FF2EB4AB1357A71E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BB0F064023DC537CA7BBC /* UIProgressView+AFNetworking.m */; };
+		B74DAF247DD58D1461138BE8 /* Pods-Project_HotelNetTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D84B44FD44FBEC0C78A92DB1 /* Pods-Project_HotelNetTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A188AA0A796623AC806C2E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D82CABA15418BD8BFFF1EB1 /* MobileCoreServices.framework */; };
+		BA238A01EEE045ABB24DC065 /* Pods-Project_HotelNet-AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6567FF7FD572234D9B9054 /* Pods-Project_HotelNet-AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAEB42D1CFBA3E0EEE665FDF /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0770DF7E68455EAA9B26A2A /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAFB3122D3E33F988846D4CD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7878C7CF311C0257EAEFC /* Request.swift */; };
+		BB43455F6C87831C1E96522A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		BBACF3264687EFF4E025F4DF /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC873616D37BD8A0E6D54D1F /* AFSecurityPolicy.m */; };
+		BC1122695E5BAFC43A442D0E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E5C8A71368AB2A8D07932 /* Manager.swift */; };
+		BCA95E9C77CD7C11F1918347 /* Pods-MAOFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2771140DE5420BE515E59A5 /* Pods-MAOFlipViewController-dummy.m */; };
+		BE0C647394A52D8AA0D97751 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A143A9E626E71D633BC8DB49 /* UIActivityIndicatorView+AFNetworking.m */; };
+		C03AAA884FEC315100D860D5 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD32361E1B61C90C13C5350 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12AA62D05663EC416436A30 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 861CD2DF2AC72CDC8A93EBD2 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C209477BF6DB1EAE57E9C42B /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 045F2C2AB714D4E82186BB55 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C437A01B578B43BA5B6BB430 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BB0F064023DC537CA7BBC /* UIProgressView+AFNetworking.m */; };
+		C4E7C81B9C5D4F9696AC1438 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA682AE31B2D6D1FF0DB6BF4 /* Security.framework */; };
+		C55D2D597155E96F032F8098 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 045F2C2AB714D4E82186BB55 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C78458AD296D536C23CBDCA5 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4980ECDAF41E296DDCA68 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9788F502CEF4E132CEE8FB9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD1FC08D9BA8CBBBEA909A /* SwiftyJSON.swift */; };
+		CAC835D35FC3AAB14678A945 /* Pods-Project_HotelNet-MAOFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2D8710C657DFDF926009A /* Pods-Project_HotelNet-MAOFlipViewController-dummy.m */; };
+		CB89FF791F7ABF2F6CB7CA43 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 045F2C2AB714D4E82186BB55 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCABF8477C4587B42E241598 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D987252D6E4FF7804EC53F7 /* UIWebView+AFNetworking.m */; };
+		CD10B9E4C29B4E37CB7E077B /* MAOFlipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC77ABA429D3D73BC474479 /* MAOFlipViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF6C14D342E8950EEFBADC50 /* MAOFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0870CB9BA650AAA80454936 /* MAOFlipViewController.m */; };
+		D030E591816FA89E1AC1463C /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A143A9E626E71D633BC8DB49 /* UIActivityIndicatorView+AFNetworking.m */; };
+		D111F9FF128E5069D5E0B1B0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 65862346FABCCB35269DDC5A /* AFURLResponseSerialization.m */; };
+		D322C5F3824E2B274DB4200F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4A533D4D790B075F37C4E /* UIAlertView+AFNetworking.m */; };
+		D6D6C7A8343BC4ACF86C64F3 /* MAOFlipInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B392170A85512A52E59A1 /* MAOFlipInteraction.m */; };
+		D966604C87D2889BAE644D9D /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 251149E485AAD6013FF8DC96 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98E6237D6DF5AE5F53A393A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D12A92AEE497AE769E37CDCE /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA85828402A9A74FB7FAB5BE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD1ED4D7B582E8D9A45E9F /* UIImageView+AFNetworking.m */; };
+		DAB582470617EF04D5BD05D3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5282442F304D8C97C4714F5 /* Alamofire.swift */; };
+		DAD037E578EDF2E705DAD377 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 029C391EA49503D2981D4395 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA2CC622E1E4C9D536AA63C /* MAOFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0C773CCA47371AC6FC8F9 /* MAOFlipTransition.m */; };
+		DF480C19AF62ACC0AA04CD11 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF59C05D77A58204CB2CAF /* AFNetworkReachabilityManager.m */; };
+		DFA988D20935A0019D5E87FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8646DC7FAAAED3A140ECB3E2 /* CoreGraphics.framework */; };
+		E0C056F9DF00984C6AF12E0A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF59C05D77A58204CB2CAF /* AFNetworkReachabilityManager.m */; };
+		E1F9170BCB47BEEFB70614BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA682AE31B2D6D1FF0DB6BF4 /* Security.framework */; };
+		E3165E9E8A21A69F7ABFAAA6 /* Pods-Project_HotelNet-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C92A4421DD959B8907E5D9 /* Pods-Project_HotelNet-Alamofire-dummy.m */; };
+		E3487B9534A7A957C94FAE18 /* MAOFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0C773CCA47371AC6FC8F9 /* MAOFlipTransition.m */; };
+		E5EBAA2E83C14E58FBBD3F7D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 811A6F6B9AE1BB3EB1727365 /* AFURLSessionManager.m */; };
+		E64191D5C97539BB5A90A75B /* MAOPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D5EB95D8DF7F6A84B4D8B0 /* MAOPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7E4DBF7AAC551407F1425A0 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BB1CEC1AFE47C9FBEBD1F2 /* AFNetworkActivityIndicatorManager.m */; };
+		EAD0A0FB0C13320262AB4CA8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 65862346FABCCB35269DDC5A /* AFURLResponseSerialization.m */; };
+		EB86AEF389E1E532B2E8850C /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE92078EF6E186E4B3CFC82F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBDD87960F69A29FE316F938 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 400924EB3C33B5C6A01D527D /* AFHTTPRequestOperationManager.m */; };
+		ED54F5A942EE1A85B9801029 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8646DC7FAAAED3A140ECB3E2 /* CoreGraphics.framework */; };
+		EE553F465E0D2208F9622A18 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 029C391EA49503D2981D4395 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5DC5B199F2BB917B90DC41 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4A533D4D790B075F37C4E /* UIAlertView+AFNetworking.m */; };
+		F07CE359A7F8DB802368767C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD1FC08D9BA8CBBBEA909A /* SwiftyJSON.swift */; };
+		F0D26C2095462EBD6033B0FC /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D8169C56CF47038B48F8D2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13B96F5C829F2441316FE12 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BC71C9E39F1710F797B939 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BFE9A533C29D810546CB59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1900F79A61C000EF512DC7E /* Foundation.framework */; };
+		F3E55F404B4868CFE456F9C8 /* Pods-Project_HotelNet-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C025D482D9BF96A014D6553C /* Pods-Project_HotelNet-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CE08BAD92DB69652981A3C /* Pods-Project_HotelNetTests-AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71580E7EF94106D83727F56C /* Pods-Project_HotelNetTests-AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C17AF3DE403B65B83AAE /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A143A9E626E71D633BC8DB49 /* UIActivityIndicatorView+AFNetworking.m */; };
+		F6B008CD263E7C9EA73F962E /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B895B2E4352F79E9D7F9CC /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77EB44CC1BD2257B3BD8DDE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1C235E571F746603C2940C /* AFHTTPRequestOperation.m */; };
+		F7E5EBD0FD4F628DBDD88613 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EA85EA56879F623A5113D /* AFURLRequestSerialization.m */; };
+		F9E6642ED1EF762AABA762C4 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E5C8A71368AB2A8D07932 /* Manager.swift */; };
+		FB8770885CCBE69EA8288275 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605374284BF840D8B597F041 /* SystemConfiguration.framework */; };
+		FEE1FF13C1F6EC6E00DE6D67 /* MAOFlipInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7EFEB6C73378F51FE848FD /* MAOFlipInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEEE162BC302291B739D512 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221410BD190071BEC02F8FBF /* Download.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0469F6AE379B44D28477AE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C023CDABFD14D3C1E45291;
+			remoteInfo = "Pods-SwiftyJSON";
+		};
+		3ACBC9F88EB986EEB61A3E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1A007C622FA06C5F32EF4A;
+			remoteInfo = "Pods-Project_HotelNetTests-Alamofire";
+		};
+		5E267DCAAE0FB7D53A9D6C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A570D25C3669FEC36AAA73;
+			remoteInfo = "Pods-Project_HotelNetTests-MAOFlipViewController";
+		};
+		84036964E73789871D2E0F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1F0C4A12747BBDA2AD8E58;
+			remoteInfo = "Pods-Project_HotelNet-AFNetworking";
+		};
+		8E6F663D61BF3B9F24ECC3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AEAB376BB4A5C705B4D67F;
+			remoteInfo = "Pods-Project_HotelNetTests-SwiftyJSON";
+		};
+		B9BB9C27A3DC6F8174D7EFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728B1B792BE75C089F6B95D5;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		BDB248B8C7020AA34DE968E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0C7051F3111E363D718FF0;
+			remoteInfo = "Pods-Project_HotelNetTests-AFNetworking";
+		};
+		CA4680000C9AF22F64A2CECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE3127DBD1D0387377D846F;
+			remoteInfo = "Pods-Project_HotelNet-SwiftyJSON";
+		};
+		D02F69066146632F10A04C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18281DB28CFDEC21607ACAC;
+			remoteInfo = "Pods-Project_HotelNet-MAOFlipViewController";
+		};
+		EF4E653DC0C4CFF98D5F5D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AE5E50A25497266888C273;
+			remoteInfo = "Pods-MAOFlipViewController";
+		};
+		F1E2A85A4AD84BE2D3FB54AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078B307CC8B8BB492FDFC042;
+			remoteInfo = "Pods-Alamofire";
+		};
+		F83FBC6F04404F545010D59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5545C360D35ECE45243DE757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D14C6C91734BB7A05972670;
+			remoteInfo = "Pods-Project_HotelNet-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A9942352F7CAAE4CE4BE38 /* Pods-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJSON-Private.xcconfig"; path = "../Pods-SwiftyJSON/Pods-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		029C391EA49503D2981D4395 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		045F2C2AB714D4E82186BB55 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		04775280C1B9025321778635 /* Pods-Project_HotelNet-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_HotelNet-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		04ECE3C8CC49EC5F7DFE2542 /* Pods_Project_HotelNetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_HotelNetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DC8C1A2B8BC04759DD7734 /* Pods-MAOFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAOFlipViewController.xcconfig"; sourceTree = "<group>"; };
+		06CEA9FC5EE6DCC93E4D022E /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		09575B376BDE3779101979E9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		0AB45025669894CCF1016F9F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF2D8710C657DFDF926009A /* Pods-Project_HotelNet-MAOFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNet-MAOFlipViewController-dummy.m"; path = "../Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController-dummy.m"; sourceTree = "<group>"; };
+		0C1C6222246AF858B4B4DB32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNet-MAOFlipViewController/Info.plist"; sourceTree = "<group>"; };
+		0DD32361E1B61C90C13C5350 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		0EB2B89AB5AB629333EE47DA /* Pods-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		1052289D11B0458AB5B9CCFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A243B27A0168DB996D7212 /* Pods-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Alamofire.modulemap"; sourceTree = "<group>"; };
+		11186F291A9C258F03E13453 /* Pods-Project_HotelNetTests-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNetTests-AFNetworking-dummy.m"; path = "../Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		11E14C4A96F89A4E1DDAC3ED /* Pods-Project_HotelNetTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Project_HotelNetTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12C351A3DA33520888A84F10 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		13FDAD589D7BD70EBD357121 /* Pods-Project_HotelNet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_HotelNet-umbrella.h"; sourceTree = "<group>"; };
+		1A0E819231CBC9E23A58987A /* Pods-Project_HotelNetTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Project_HotelNetTests.modulemap"; sourceTree = "<group>"; };
+		1A7BD949DE2C76F0E106DE9A /* Pods-Project_HotelNet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Project_HotelNet-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AB4980ECDAF41E296DDCA68 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		1BA6CE654CA0796BAC232A40 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D987252D6E4FF7804EC53F7 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF226F9D40C0E074D620FC5 /* Pods-Project_HotelNet-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNet-Alamofire.xcconfig"; path = "../Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		1E6E363071DBB2FF07C70309 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Info.plist"; sourceTree = "<group>"; };
+		1ECDD913E7142A4578886F91 /* Pods-Project_HotelNetTests-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-AFNetworking.xcconfig"; path = "../Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		1F3370DD07913C78DAC5B003 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C1D43C2D95C08181760ED4 /* Pods-Project_HotelNet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project_HotelNet-resources.sh"; sourceTree = "<group>"; };
+		221410BD190071BEC02F8FBF /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		22A384E4D05428378532A900 /* Pods-Project_HotelNet-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNet-AFNetworking-Private.xcconfig"; path = "../Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		23D17CEE993E939C2D17E8E8 /* Pods-Project_HotelNet-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project_HotelNet-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		251149E485AAD6013FF8DC96 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		2787E1788CDFA3047CD803B6 /* Pods-Project_HotelNetTests-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNetTests-SwiftyJSON.modulemap"; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		2B067DC97189BDAA485B0A48 /* Pods-Project_HotelNetTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_HotelNetTests-environment.h"; sourceTree = "<group>"; };
+		2BE7878C7CF311C0257EAEFC /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2FD8E1043992BEFD1F1A1A9F /* Pods-MAOFlipViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MAOFlipViewController.modulemap"; sourceTree = "<group>"; };
+		376EA85EA56879F623A5113D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		397516EA3F0C4B99193BDD97 /* Pods-MAOFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAOFlipViewController-prefix.pch"; sourceTree = "<group>"; };
+		3992961F076E5929E87ABA67 /* Pods-Project_HotelNet-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_HotelNet-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		3C366F9507923111D799C162 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400924EB3C33B5C6A01D527D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		40C92A4421DD959B8907E5D9 /* Pods-Project_HotelNet-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNet-Alamofire-dummy.m"; path = "../Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		420088B36BB32DFF8C2F45BA /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		422F0413C048FF486B3C2407 /* Pods-AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		4509F308593C0927408482AF /* Pods-Project_HotelNetTests-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-Alamofire-prefix.pch"; path = "../Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		48C4A533D4D790B075F37C4E /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		4A394661DE47DEC043B21061 /* Pods-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SwiftyJSON-prefix.pch"; path = "../Pods-SwiftyJSON/Pods-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		4ADADEC5E1679496F898A7F8 /* Pods-Project_HotelNetTests-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-SwiftyJSON-prefix.pch"; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		4BC4DFB2C4118494123998D9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4F6567FF7FD572234D9B9054 /* Pods-Project_HotelNet-AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNet-AFNetworking-umbrella.h"; path = "../Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		4FE7DF09F26362798A72D44C /* Pods-MAOFlipViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAOFlipViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		52C5F7E81347DF49381C606F /* Pods-Project_HotelNetTests-MAOFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-MAOFlipViewController.xcconfig"; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController.xcconfig"; sourceTree = "<group>"; };
+		52E5D8FE5A288CAA1B4917E8 /* Pods-Project_HotelNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_HotelNet.release.xcconfig"; sourceTree = "<group>"; };
+		554D571C229C665D4D6C4422 /* Pods-Project_HotelNetTests-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-AFNetworking-prefix.pch"; path = "../Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5717ED9DE5D66C87B4490C90 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		585532C988968F841B4A10C6 /* Pods-Project_HotelNetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_HotelNetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		587D5421CE68E30169EBD68B /* MAOPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOPanGestureRecognizer.m; path = MAOFlipViewController/MAOPanGestureRecognizer.m; sourceTree = "<group>"; };
+		5AB6B5208061AF6413D0776B /* Pods-Project_HotelNetTests-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNetTests-SwiftyJSON-dummy.m"; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5AE63878F7D2368C27C9873B /* Pods-Project_HotelNetTests-MAOFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-MAOFlipViewController-prefix.pch"; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController-prefix.pch"; sourceTree = "<group>"; };
+		5BA3DBD33E9E148C2F9B931D /* Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h"; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		5C5B13061B193998C53C31E0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8E5C8A71368AB2A8D07932 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		5D9E829B359C74003949A7DE /* Pods-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5E1CCDF805DE28D9DDCBCA2C /* Pods-Project_HotelNetTests-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNetTests-Alamofire-dummy.m"; path = "../Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		5E938FDC623CFA55A190EE00 /* Pods-Project_HotelNet-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_HotelNet-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		5F7EFEB6C73378F51FE848FD /* MAOFlipInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipInteraction.h; path = MAOFlipViewController/MAOFlipInteraction.h; sourceTree = "<group>"; };
+		5FBCD6A56E2D24B4EE1BF197 /* Pods-Project_HotelNet-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNet-AFNetworking.xcconfig"; path = "../Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		605374284BF840D8B597F041 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		60678AFE517E2688D94BCC01 /* Pods-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		61AF2AAEA5652036677F1CF6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65845DFB51C99EBBD9415F2D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		65862346FABCCB35269DDC5A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		6645381B6118372EDCA479A4 /* Pods-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		67DDDDAC7867E401DEF96B0A /* Pods-Project_HotelNet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Project_HotelNet.modulemap"; sourceTree = "<group>"; };
+		6C323AD6506DF5F49AC195A8 /* Pods-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		70E952670D496C53F4062D05 /* Pods-Project_HotelNetTests-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-AFNetworking-Private.xcconfig"; path = "../Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		711E43CA769B1A173D48BFE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71580E7EF94106D83727F56C /* Pods-Project_HotelNetTests-AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-AFNetworking-umbrella.h"; path = "../Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		71E614BDB1560412E1E5D71B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		725B6254CA2F2C1A888AA9AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		72AFA069BC2DCB61EA213462 /* Pods-Project_HotelNetTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project_HotelNetTests-frameworks.sh"; sourceTree = "<group>"; };
+		72F429660276CFE4E15CA0CA /* Pods-Project_HotelNet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project_HotelNet-dummy.m"; sourceTree = "<group>"; };
+		7B31B62A3B16A87FF85EAB58 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		7D82CABA15418BD8BFFF1EB1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		7E086ABE2F46059DDD6507DF /* MAOFlipTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipTransition.h; path = MAOFlipViewController/MAOFlipTransition.h; sourceTree = "<group>"; };
+		811A6F6B9AE1BB3EB1727365 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		81F5F29A4E62BF0EC51FA093 /* Pods-Project_HotelNet-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_HotelNet-environment.h"; sourceTree = "<group>"; };
+		822F89603B99FFAFB897B0C2 /* Pods-MAOFlipViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAOFlipViewController-umbrella.h"; sourceTree = "<group>"; };
+		844A5DE91D865C413B683BBF /* Pods-AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AFNetworking.modulemap"; sourceTree = "<group>"; };
+		8481B41B9401C90807203372 /* Pods-Project_HotelNetTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Project_HotelNetTests-dummy.m"; sourceTree = "<group>"; };
+		861CD2DF2AC72CDC8A93EBD2 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8646DC7FAAAED3A140ECB3E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		88694CCA00B8BAA93E0334A8 /* Pods-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJSON.xcconfig"; path = "../Pods-SwiftyJSON/Pods-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		8924CFB187D557F2F6BD1401 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		8E7454ECA61C75DFFD5C4DDE /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		90D982C49F277A050041E575 /* Pods-Project_HotelNetTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project_HotelNetTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		911C609D567D8D19BFF2BF2C /* Pods-Project_HotelNet-MAOFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNet-MAOFlipViewController.xcconfig"; path = "../Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController.xcconfig"; sourceTree = "<group>"; };
+		91534D8216A3FB56204C25F3 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		91D0C773CCA47371AC6FC8F9 /* MAOFlipTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipTransition.m; path = MAOFlipViewController/MAOFlipTransition.m; sourceTree = "<group>"; };
+		92649EC9ABD55EE814153F38 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		92D5EB95D8DF7F6A84B4D8B0 /* MAOPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOPanGestureRecognizer.h; path = MAOFlipViewController/MAOPanGestureRecognizer.h; sourceTree = "<group>"; };
+		93040EE7F9E837A438AD7C41 /* Pods-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-SwiftyJSON.modulemap"; path = "../Pods-SwiftyJSON/Pods-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		980057042336A4993DAC6390 /* Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h"; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h"; sourceTree = "<group>"; };
+		99F5576FB1850D1E5ED27806 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9A1B392170A85512A52E59A1 /* MAOFlipInteraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipInteraction.m; path = MAOFlipViewController/MAOFlipInteraction.m; sourceTree = "<group>"; };
+		9C84FA3EE32B19EF5115E6A7 /* Pods-Project_HotelNet-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNet-Alamofire-prefix.pch"; path = "../Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		9EEC0778B1667F4418F89B4C /* Pods-Project_HotelNetTests-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-SwiftyJSON.xcconfig"; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		A0AFDCA276CE776F0C3FCFAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Info.plist"; sourceTree = "<group>"; };
+		A143A9E626E71D633BC8DB49 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A1D6B7EFCB51660593E59810 /* Pods-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SwiftyJSON-dummy.m"; path = "../Pods-SwiftyJSON/Pods-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A239E7455A8FD1DDF6B40CE6 /* Pods-Project_HotelNet-MAOFlipViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNet-MAOFlipViewController-umbrella.h"; path = "../Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController-umbrella.h"; sourceTree = "<group>"; };
+		A428AD468F3E44716CE30380 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNetTests-AFNetworking/Info.plist"; sourceTree = "<group>"; };
+		A5282442F304D8C97C4714F5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A5BC71C9E39F1710F797B939 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A5C4606C1C0CA0AC897C8A97 /* Pods-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		A6D08714998C96A319E04428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908DAB2C7F7E085ED38C585 /* Pods-Project_HotelNetTests-MAOFlipViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNetTests-MAOFlipViewController.modulemap"; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController.modulemap"; sourceTree = "<group>"; };
+		AA682AE31B2D6D1FF0DB6BF4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		AA7A6AC8A2B2605732121F80 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AAE6D414C3D1CAD64F0B71F3 /* Pods-Project_HotelNet-MAOFlipViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNet-MAOFlipViewController.modulemap"; path = "../Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController.modulemap"; sourceTree = "<group>"; };
+		ACBAB8495AC59BE2BAE70183 /* MAOFlipViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAOFlipViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD5756645519D331B34B2A1 /* Pods-Project_HotelNetTests-AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNetTests-AFNetworking.modulemap"; path = "../Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking.modulemap"; sourceTree = "<group>"; };
+		AE92078EF6E186E4B3CFC82F /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		AF8F00DD0035B023BA2FC870 /* Pods-Project_HotelNetTests-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNetTests-Alamofire.modulemap"; path = "../Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire.modulemap"; sourceTree = "<group>"; };
+		AFB084AD394368826C7C18B2 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFB2FC3F2B1A8BB32E1B606C /* Pods-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		B0356FD60755846B0AEBCE1A /* Pods-Project_HotelNetTests-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNetTests-Alamofire-umbrella.h"; path = "../Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B08C28B9642C6EDFE022BF3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12A6D67ADDFC84312AF69DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNet-AFNetworking/Info.plist"; sourceTree = "<group>"; };
+		B275F0350ACDEDC8AF4BBC15 /* Pods_Project_HotelNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_HotelNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2771140DE5420BE515E59A5 /* Pods-MAOFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAOFlipViewController-dummy.m"; sourceTree = "<group>"; };
+		B3D8169C56CF47038B48F8D2 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		B5E6B56472ED39E59F80EC4F /* Pods-Project_HotelNetTests-MAOFlipViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-MAOFlipViewController-Private.xcconfig"; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		B6FCFB90145931C9A9B31A2C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		B73686668476AFD0E4D7748F /* Pods-Project_HotelNetTests-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-SwiftyJSON-Private.xcconfig"; path = "../Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		B9D19CEF6B4676E8F4CEC921 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-SwiftyJSON/Info.plist"; sourceTree = "<group>"; };
+		BB44EE8DA0AD59BB47DE647A /* MAOFlipViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAOFlipViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7997215E671648BB9F3349 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCD652287C366360B0D5F25 /* Pods-Project_HotelNet-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNet-AFNetworking-prefix.pch"; path = "../Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		BC4EE895FCB910C6362C57FF /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE49D70DFBD44F5032CD0486 /* Pods-Project_HotelNetTests-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-Alamofire-Private.xcconfig"; path = "../Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		BE95245421B95D23BED95057 /* Pods-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		C025D482D9BF96A014D6553C /* Pods-Project_HotelNet-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_HotelNet-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		C06FA9CFECF6B63D7BC569C5 /* Pods-Project_HotelNetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_HotelNetTests.release.xcconfig"; sourceTree = "<group>"; };
+		C148977C08AD5E91AA95A7AA /* Pods-Project_HotelNet-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNet-Alamofire.modulemap"; path = "../Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire.modulemap"; sourceTree = "<group>"; };
+		C1E5E2F4A7A75FAC26AC31B1 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		C211766926497073B9962963 /* Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m"; path = "../Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m"; sourceTree = "<group>"; };
+		C22402D1FDD06E6E6992B864 /* Pods-Project_HotelNet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Project_HotelNet-acknowledgements.plist"; sourceTree = "<group>"; };
+		C22794DBB29F03DDAFB0E06D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C65EA43551680E98FB7FC5A7 /* Pods-Project_HotelNet-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNet-Alamofire-umbrella.h"; path = "../Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C6FF59C05D77A58204CB2CAF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C9B895B2E4352F79E9D7F9CC /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		CAC77ABA429D3D73BC474479 /* MAOFlipViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipViewController.h; path = MAOFlipViewController/MAOFlipViewController.h; sourceTree = "<group>"; };
+		CB1680391CEAAEF2F7DB7D65 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4D3C928923D0EEA76F370B /* Pods-Project_HotelNetTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project_HotelNetTests-resources.sh"; sourceTree = "<group>"; };
+		CBBBA003AC5450E1DDFAF9D3 /* Pods-Project_HotelNet-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNet-Alamofire-Private.xcconfig"; path = "../Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		CBCD1ED4D7B582E8D9A45E9F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CC873616D37BD8A0E6D54D1F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CC95B334ED5943CB86B91184 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD14EC0658CEA303A1D8F4C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNet-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		D0870CB9BA650AAA80454936 /* MAOFlipViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipViewController.m; path = MAOFlipViewController/MAOFlipViewController.m; sourceTree = "<group>"; };
+		D12A92AEE497AE769E37CDCE /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		D1F29012A6EE201633810514 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		D390CA0F40CB64247477667F /* Pods-Project_HotelNet-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Project_HotelNet-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		D5259E15FFB6A8FD306A5020 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D79BB0F064023DC537CA7BBC /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		D84B44FD44FBEC0C78A92DB1 /* Pods-Project_HotelNetTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Project_HotelNetTests-umbrella.h"; sourceTree = "<group>"; };
+		DADC898792C28BB1B5A1BC7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Project_HotelNetTests-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		DB9AF83D81F00653EE0E97A5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE964F4FBECB9D15E1A095A8 /* Pods-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		E00B538AE4C7D52C1A44F05A /* Pods-Project_HotelNet-MAOFlipViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNet-MAOFlipViewController-Private.xcconfig"; path = "../Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		E0770DF7E68455EAA9B26A2A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		E11E4C59B8929C2711B3A5B1 /* Pods-Project_HotelNet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Project_HotelNet-frameworks.sh"; sourceTree = "<group>"; };
+		E1900F79A61C000EF512DC7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E817C38CFD86BDD305F74AB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E985989581BD4E32618D4200 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E997BF5B0474531287004492 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		E9CF75D0FF4CA982FF02D636 /* Pods-Project_HotelNet-MAOFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Project_HotelNet-MAOFlipViewController-prefix.pch"; path = "../Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController-prefix.pch"; sourceTree = "<group>"; };
+		EB1C235E571F746603C2940C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EDBD1FC08D9BA8CBBBEA909A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F09E3F3F2A01B8E462B64F5A /* Pods-Project_HotelNet-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Project_HotelNet-AFNetworking-dummy.m"; path = "../Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		F2BB1CEC1AFE47C9FBEBD1F2 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		F616B3A7D4EC445957CE4A35 /* Pods-Project_HotelNet-AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Project_HotelNet-AFNetworking.modulemap"; path = "../Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking.modulemap"; sourceTree = "<group>"; };
+		F7E338AC318517B5A2AAE4C8 /* Pods-Project_HotelNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Project_HotelNet.debug.xcconfig"; sourceTree = "<group>"; };
+		F8CA85478D020F2AAADCEEC0 /* Pods-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SwiftyJSON-umbrella.h"; path = "../Pods-SwiftyJSON/Pods-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		FAE269699055B18C212359EC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB56212E562D560833382621 /* Pods-Project_HotelNetTests-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_HotelNetTests-Alamofire.xcconfig"; path = "../Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		FB92A72A707D1528128D6114 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC99B6F80B6D94F6EB3076AB /* MAOFlipViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAOFlipViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0186C4CC51F1E7156C6F0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0437ACD58A4568C114D9C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017939E18F59B83F3D43910F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FF00E0F90F0A4C257AAF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99612A28D5372C6EF952261D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A1D45701B9CED7095E1E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2417F11F2A9B1019269C18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359515246EEBB764B5125EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0C8A34A6DA08AB87297A3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39703A7219CD6097A274541C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149FCAEF9375921D00535AED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E712D54CB3E74EC26A1BF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A5A807C856C4B3CDE3CA0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCDFA0234D024C0B149188E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E1586611CE7AFEB98D945B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A10C0E885FEDE7E8746A229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B68E8C3AFADB3DBAA42E977 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC943CC9DD0A967CB083718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A47776F51BE2F6E7787553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C427991285DB96ACF9273B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA988D20935A0019D5E87FE /* CoreGraphics.framework in Frameworks */,
+				28D17F7E6EAC3A49D06CCBDC /* Foundation.framework in Frameworks */,
+				B9A188AA0A796623AC806C2E /* MobileCoreServices.framework in Frameworks */,
+				E1F9170BCB47BEEFB70614BE /* Security.framework in Frameworks */,
+				9CD4A5B93B96653A8A754523 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D309978207193F7A79A6ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461C8E017F9D60DB8E15B38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE30C2C3F088432933FE100F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6240529D47B0C45D7DF47A /* CoreGraphics.framework in Frameworks */,
+				BB43455F6C87831C1E96522A /* Foundation.framework in Frameworks */,
+				5CEF0F14E526FB002299A6A3 /* MobileCoreServices.framework in Frameworks */,
+				9E06CC23ECA0094C40F2E651 /* Security.framework in Frameworks */,
+				902A74C55FD1B7641B637500 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD8703AE65795F3DF92984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5680B4E830D74FBB90A1FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A549FDBB81A8808FC8333E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BFE9A533C29D810546CB59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECF5C45A5360C0EB5F3A8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED54F5A942EE1A85B9801029 /* CoreGraphics.framework in Frameworks */,
+				830D996BB229E8E3AC6FBC3B /* Foundation.framework in Frameworks */,
+				6F11AB5753A0E353F7E15D27 /* MobileCoreServices.framework in Frameworks */,
+				C4E7C81B9C5D4F9696AC1438 /* Security.framework in Frameworks */,
+				FB8770885CCBE69EA8288275 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9BA526E5147B678C010040 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12A6D67ADDFC84312AF69DC /* Info.plist */,
+				A428AD468F3E44716CE30380 /* Info.plist */,
+				A6D08714998C96A319E04428 /* Info.plist */,
+				844A5DE91D865C413B683BBF /* Pods-AFNetworking.modulemap */,
+				BE95245421B95D23BED95057 /* Pods-AFNetworking.xcconfig */,
+				60678AFE517E2688D94BCC01 /* Pods-AFNetworking-Private.xcconfig */,
+				AFB2FC3F2B1A8BB32E1B606C /* Pods-AFNetworking-dummy.m */,
+				5D9E829B359C74003949A7DE /* Pods-AFNetworking-prefix.pch */,
+				422F0413C048FF486B3C2407 /* Pods-AFNetworking-umbrella.h */,
+				F616B3A7D4EC445957CE4A35 /* Pods-Project_HotelNet-AFNetworking.modulemap */,
+				5FBCD6A56E2D24B4EE1BF197 /* Pods-Project_HotelNet-AFNetworking.xcconfig */,
+				22A384E4D05428378532A900 /* Pods-Project_HotelNet-AFNetworking-Private.xcconfig */,
+				F09E3F3F2A01B8E462B64F5A /* Pods-Project_HotelNet-AFNetworking-dummy.m */,
+				BBCD652287C366360B0D5F25 /* Pods-Project_HotelNet-AFNetworking-prefix.pch */,
+				4F6567FF7FD572234D9B9054 /* Pods-Project_HotelNet-AFNetworking-umbrella.h */,
+				ACD5756645519D331B34B2A1 /* Pods-Project_HotelNetTests-AFNetworking.modulemap */,
+				1ECDD913E7142A4578886F91 /* Pods-Project_HotelNetTests-AFNetworking.xcconfig */,
+				70E952670D496C53F4062D05 /* Pods-Project_HotelNetTests-AFNetworking-Private.xcconfig */,
+				11186F291A9C258F03E13453 /* Pods-Project_HotelNetTests-AFNetworking-dummy.m */,
+				554D571C229C665D4D6C4422 /* Pods-Project_HotelNetTests-AFNetworking-prefix.pch */,
+				71580E7EF94106D83727F56C /* Pods-Project_HotelNetTests-AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AFNetworking";
+			sourceTree = "<group>";
+		};
+		36C5B42DBE60AEBBBEBC8AA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2346E54239BCD94C16C689F /* AFNetworking */,
+				AAFA55FFB4F49E7375F23FA3 /* Alamofire */,
+				8DCD9657814ADA48D3212443 /* MAOFlipViewController */,
+				6EB671EBCEE572EF0C55C2C8 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		379DEFAD32F56734F5649C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1680391CEAAEF2F7DB7D65 /* AFNetworking.framework */,
+				DB9AF83D81F00653EE0E97A5 /* AFNetworking.framework */,
+				1F3370DD07913C78DAC5B003 /* AFNetworking.framework */,
+				61AF2AAEA5652036677F1CF6 /* Alamofire.framework */,
+				FAE269699055B18C212359EC /* Alamofire.framework */,
+				FB92A72A707D1528128D6114 /* Alamofire.framework */,
+				ACBAB8495AC59BE2BAE70183 /* MAOFlipViewController.framework */,
+				FC99B6F80B6D94F6EB3076AB /* MAOFlipViewController.framework */,
+				BB44EE8DA0AD59BB47DE647A /* MAOFlipViewController.framework */,
+				0AB45025669894CCF1016F9F /* Pods.framework */,
+				B275F0350ACDEDC8AF4BBC15 /* Pods_Project_HotelNet.framework */,
+				04ECE3C8CC49EC5F7DFE2542 /* Pods_Project_HotelNetTests.framework */,
+				3C366F9507923111D799C162 /* SwiftyJSON.framework */,
+				5C5B13061B193998C53C31E0 /* SwiftyJSON.framework */,
+				BB7997215E671648BB9F3349 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4E50542AA58C6C5963DFDF /* Pods-Project_HotelNet */ = {
+			isa = PBXGroup;
+			children = (
+				B08C28B9642C6EDFE022BF3A /* Info.plist */,
+				67DDDDAC7867E401DEF96B0A /* Pods-Project_HotelNet.modulemap */,
+				1A7BD949DE2C76F0E106DE9A /* Pods-Project_HotelNet-acknowledgements.markdown */,
+				C22402D1FDD06E6E6992B864 /* Pods-Project_HotelNet-acknowledgements.plist */,
+				72F429660276CFE4E15CA0CA /* Pods-Project_HotelNet-dummy.m */,
+				81F5F29A4E62BF0EC51FA093 /* Pods-Project_HotelNet-environment.h */,
+				E11E4C59B8929C2711B3A5B1 /* Pods-Project_HotelNet-frameworks.sh */,
+				20C1D43C2D95C08181760ED4 /* Pods-Project_HotelNet-resources.sh */,
+				13FDAD589D7BD70EBD357121 /* Pods-Project_HotelNet-umbrella.h */,
+				F7E338AC318517B5A2AAE4C8 /* Pods-Project_HotelNet.debug.xcconfig */,
+				52E5D8FE5A288CAA1B4917E8 /* Pods-Project_HotelNet.release.xcconfig */,
+			);
+			name = "Pods-Project_HotelNet";
+			path = "Target Support Files/Pods-Project_HotelNet";
+			sourceTree = "<group>";
+		};
+		60DB09B974507CE00EDEA36A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E9FCA79EA0E2667343C2A4D /* Pods */,
+				3D4E50542AA58C6C5963DFDF /* Pods-Project_HotelNet */,
+				D0D843104A2F4A20E415E33C /* Pods-Project_HotelNetTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62806F7DF5AB88B20151DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D178171C1B2D00EB46EFAB1D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64E1AFB6E2732932CAEB9C14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD14EC0658CEA303A1D8F4C5 /* Info.plist */,
+				DADC898792C28BB1B5A1BC7C /* Info.plist */,
+				FE0186C4CC51F1E7156C6F0E /* Info.plist */,
+				10A243B27A0168DB996D7212 /* Pods-Alamofire.modulemap */,
+				0EB2B89AB5AB629333EE47DA /* Pods-Alamofire.xcconfig */,
+				6645381B6118372EDCA479A4 /* Pods-Alamofire-Private.xcconfig */,
+				A5C4606C1C0CA0AC897C8A97 /* Pods-Alamofire-dummy.m */,
+				6C323AD6506DF5F49AC195A8 /* Pods-Alamofire-prefix.pch */,
+				DE964F4FBECB9D15E1A095A8 /* Pods-Alamofire-umbrella.h */,
+				C148977C08AD5E91AA95A7AA /* Pods-Project_HotelNet-Alamofire.modulemap */,
+				1DF226F9D40C0E074D620FC5 /* Pods-Project_HotelNet-Alamofire.xcconfig */,
+				CBBBA003AC5450E1DDFAF9D3 /* Pods-Project_HotelNet-Alamofire-Private.xcconfig */,
+				40C92A4421DD959B8907E5D9 /* Pods-Project_HotelNet-Alamofire-dummy.m */,
+				9C84FA3EE32B19EF5115E6A7 /* Pods-Project_HotelNet-Alamofire-prefix.pch */,
+				C65EA43551680E98FB7FC5A7 /* Pods-Project_HotelNet-Alamofire-umbrella.h */,
+				AF8F00DD0035B023BA2FC870 /* Pods-Project_HotelNetTests-Alamofire.modulemap */,
+				FB56212E562D560833382621 /* Pods-Project_HotelNetTests-Alamofire.xcconfig */,
+				BE49D70DFBD44F5032CD0486 /* Pods-Project_HotelNetTests-Alamofire-Private.xcconfig */,
+				5E1CCDF805DE28D9DDCBCA2C /* Pods-Project_HotelNetTests-Alamofire-dummy.m */,
+				4509F308593C0927408482AF /* Pods-Project_HotelNetTests-Alamofire-prefix.pch */,
+				B0356FD60755846B0AEBCE1A /* Pods-Project_HotelNetTests-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Alamofire";
+			sourceTree = "<group>";
+		};
+		6EB671EBCEE572EF0C55C2C8 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD1FC08D9BA8CBBBEA909A /* SwiftyJSON.swift */,
+				E45F71F53429935127C82A73 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		84C5B9DC4B29BAE7539FB8B1 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				E985989581BD4E32618D4200 /* AFHTTPRequestOperation.h */,
+				EB1C235E571F746603C2940C /* AFHTTPRequestOperation.m */,
+				A5BC71C9E39F1710F797B939 /* AFHTTPRequestOperationManager.h */,
+				400924EB3C33B5C6A01D527D /* AFHTTPRequestOperationManager.m */,
+				92649EC9ABD55EE814153F38 /* AFURLConnectionOperation.h */,
+				71E614BDB1560412E1E5D71B /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		8B251DD44EDD013CD0AC30FD /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A6AC8A2B2605732121F80 /* AFURLRequestSerialization.h */,
+				376EA85EA56879F623A5113D /* AFURLRequestSerialization.m */,
+				861CD2DF2AC72CDC8A93EBD2 /* AFURLResponseSerialization.h */,
+				65862346FABCCB35269DDC5A /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		8DCD9657814ADA48D3212443 /* MAOFlipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F7EFEB6C73378F51FE848FD /* MAOFlipInteraction.h */,
+				9A1B392170A85512A52E59A1 /* MAOFlipInteraction.m */,
+				7E086ABE2F46059DDD6507DF /* MAOFlipTransition.h */,
+				91D0C773CCA47371AC6FC8F9 /* MAOFlipTransition.m */,
+				CAC77ABA429D3D73BC474479 /* MAOFlipViewController.h */,
+				D0870CB9BA650AAA80454936 /* MAOFlipViewController.m */,
+				92D5EB95D8DF7F6A84B4D8B0 /* MAOPanGestureRecognizer.h */,
+				587D5421CE68E30169EBD68B /* MAOPanGestureRecognizer.m */,
+				FCECBE0987D978D4E1B09BF0 /* Support Files */,
+			);
+			path = MAOFlipViewController;
+			sourceTree = "<group>";
+		};
+		8E9FCA79EA0E2667343C2A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711E43CA769B1A173D48BFE5 /* Info.plist */,
+				06CEA9FC5EE6DCC93E4D022E /* Pods.modulemap */,
+				BC4EE895FCB910C6362C57FF /* Pods-acknowledgements.markdown */,
+				AFB084AD394368826C7C18B2 /* Pods-acknowledgements.plist */,
+				420088B36BB32DFF8C2F45BA /* Pods-dummy.m */,
+				E997BF5B0474531287004492 /* Pods-environment.h */,
+				8924CFB187D557F2F6BD1401 /* Pods-frameworks.sh */,
+				12C351A3DA33520888A84F10 /* Pods-resources.sh */,
+				91534D8216A3FB56204C25F3 /* Pods-umbrella.h */,
+				725B6254CA2F2C1A888AA9AF /* Pods.debug.xcconfig */,
+				4BC4DFB2C4118494123998D9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		A034D2FFA2A2098F9BA283D4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D5259E15FFB6A8FD306A5020 /* AFNetworkReachabilityManager.h */,
+				C6FF59C05D77A58204CB2CAF /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		A2346E54239BCD94C16C689F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1AB4980ECDAF41E296DDCA68 /* AFNetworking.h */,
+				84C5B9DC4B29BAE7539FB8B1 /* NSURLConnection */,
+				E4B403CBD9DDA1159E30473F /* NSURLSession */,
+				A034D2FFA2A2098F9BA283D4 /* Reachability */,
+				BB05B5FE88FC81936F69AB58 /* Security */,
+				8B251DD44EDD013CD0AC30FD /* Serialization */,
+				2D9BA526E5147B678C010040 /* Support Files */,
+				F3B13133E8DD3B08CD99A69E /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AAFA55FFB4F49E7375F23FA3 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				A5282442F304D8C97C4714F5 /* Alamofire.swift */,
+				221410BD190071BEC02F8FBF /* Download.swift */,
+				5D8E5C8A71368AB2A8D07932 /* Manager.swift */,
+				C22794DBB29F03DDAFB0E06D /* ParameterEncoding.swift */,
+				2BE7878C7CF311C0257EAEFC /* Request.swift */,
+				09575B376BDE3779101979E9 /* ResponseSerialization.swift */,
+				8E7454ECA61C75DFFD5C4DDE /* Upload.swift */,
+				C1E5E2F4A7A75FAC26AC31B1 /* Validation.swift */,
+				64E1AFB6E2732932CAEB9C14 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		BB05B5FE88FC81936F69AB58 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				65845DFB51C99EBBD9415F2D /* AFSecurityPolicy.h */,
+				CC873616D37BD8A0E6D54D1F /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		D0D843104A2F4A20E415E33C /* Pods-Project_HotelNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC95B334ED5943CB86B91184 /* Info.plist */,
+				1A0E819231CBC9E23A58987A /* Pods-Project_HotelNetTests.modulemap */,
+				11E14C4A96F89A4E1DDAC3ED /* Pods-Project_HotelNetTests-acknowledgements.markdown */,
+				90D982C49F277A050041E575 /* Pods-Project_HotelNetTests-acknowledgements.plist */,
+				8481B41B9401C90807203372 /* Pods-Project_HotelNetTests-dummy.m */,
+				2B067DC97189BDAA485B0A48 /* Pods-Project_HotelNetTests-environment.h */,
+				72AFA069BC2DCB61EA213462 /* Pods-Project_HotelNetTests-frameworks.sh */,
+				CB4D3C928923D0EEA76F370B /* Pods-Project_HotelNetTests-resources.sh */,
+				D84B44FD44FBEC0C78A92DB1 /* Pods-Project_HotelNetTests-umbrella.h */,
+				585532C988968F841B4A10C6 /* Pods-Project_HotelNetTests.debug.xcconfig */,
+				C06FA9CFECF6B63D7BC569C5 /* Pods-Project_HotelNetTests.release.xcconfig */,
+			);
+			name = "Pods-Project_HotelNetTests";
+			path = "Target Support Files/Pods-Project_HotelNetTests";
+			sourceTree = "<group>";
+		};
+		D178171C1B2D00EB46EFAB1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8646DC7FAAAED3A140ECB3E2 /* CoreGraphics.framework */,
+				E1900F79A61C000EF512DC7E /* Foundation.framework */,
+				7D82CABA15418BD8BFFF1EB1 /* MobileCoreServices.framework */,
+				AA682AE31B2D6D1FF0DB6BF4 /* Security.framework */,
+				605374284BF840D8B597F041 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D782B985DD88853F7A23338C = {
+			isa = PBXGroup;
+			children = (
+				1BA6CE654CA0796BAC232A40 /* Podfile */,
+				62806F7DF5AB88B20151DFE8 /* Frameworks */,
+				36C5B42DBE60AEBBBEBC8AA3 /* Pods */,
+				379DEFAD32F56734F5649C3C /* Products */,
+				60DB09B974507CE00EDEA36A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E45F71F53429935127C82A73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E363071DBB2FF07C70309 /* Info.plist */,
+				B9D19CEF6B4676E8F4CEC921 /* Info.plist */,
+				1052289D11B0458AB5B9CCFA /* Info.plist */,
+				D390CA0F40CB64247477667F /* Pods-Project_HotelNet-SwiftyJSON.modulemap */,
+				04775280C1B9025321778635 /* Pods-Project_HotelNet-SwiftyJSON.xcconfig */,
+				3992961F076E5929E87ABA67 /* Pods-Project_HotelNet-SwiftyJSON-Private.xcconfig */,
+				23D17CEE993E939C2D17E8E8 /* Pods-Project_HotelNet-SwiftyJSON-dummy.m */,
+				5E938FDC623CFA55A190EE00 /* Pods-Project_HotelNet-SwiftyJSON-prefix.pch */,
+				C025D482D9BF96A014D6553C /* Pods-Project_HotelNet-SwiftyJSON-umbrella.h */,
+				2787E1788CDFA3047CD803B6 /* Pods-Project_HotelNetTests-SwiftyJSON.modulemap */,
+				9EEC0778B1667F4418F89B4C /* Pods-Project_HotelNetTests-SwiftyJSON.xcconfig */,
+				B73686668476AFD0E4D7748F /* Pods-Project_HotelNetTests-SwiftyJSON-Private.xcconfig */,
+				5AB6B5208061AF6413D0776B /* Pods-Project_HotelNetTests-SwiftyJSON-dummy.m */,
+				4ADADEC5E1679496F898A7F8 /* Pods-Project_HotelNetTests-SwiftyJSON-prefix.pch */,
+				5BA3DBD33E9E148C2F9B931D /* Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h */,
+				93040EE7F9E837A438AD7C41 /* Pods-SwiftyJSON.modulemap */,
+				88694CCA00B8BAA93E0334A8 /* Pods-SwiftyJSON.xcconfig */,
+				00A9942352F7CAAE4CE4BE38 /* Pods-SwiftyJSON-Private.xcconfig */,
+				A1D6B7EFCB51660593E59810 /* Pods-SwiftyJSON-dummy.m */,
+				4A394661DE47DEC043B21061 /* Pods-SwiftyJSON-prefix.pch */,
+				F8CA85478D020F2AAADCEEC0 /* Pods-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Project_HotelNet-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		E4B403CBD9DDA1159E30473F /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				5717ED9DE5D66C87B4490C90 /* AFHTTPSessionManager.h */,
+				99F5576FB1850D1E5ED27806 /* AFHTTPSessionManager.m */,
+				AE92078EF6E186E4B3CFC82F /* AFURLSessionManager.h */,
+				811A6F6B9AE1BB3EB1727365 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		F3B13133E8DD3B08CD99A69E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0770DF7E68455EAA9B26A2A /* AFNetworkActivityIndicatorManager.h */,
+				F2BB1CEC1AFE47C9FBEBD1F2 /* AFNetworkActivityIndicatorManager.m */,
+				B6FCFB90145931C9A9B31A2C /* UIActivityIndicatorView+AFNetworking.h */,
+				A143A9E626E71D633BC8DB49 /* UIActivityIndicatorView+AFNetworking.m */,
+				C9B895B2E4352F79E9D7F9CC /* UIAlertView+AFNetworking.h */,
+				48C4A533D4D790B075F37C4E /* UIAlertView+AFNetworking.m */,
+				D12A92AEE497AE769E37CDCE /* UIButton+AFNetworking.h */,
+				D1F29012A6EE201633810514 /* UIButton+AFNetworking.m */,
+				0DD32361E1B61C90C13C5350 /* UIImageView+AFNetworking.h */,
+				CBCD1ED4D7B582E8D9A45E9F /* UIImageView+AFNetworking.m */,
+				B3D8169C56CF47038B48F8D2 /* UIKit+AFNetworking.h */,
+				029C391EA49503D2981D4395 /* UIProgressView+AFNetworking.h */,
+				D79BB0F064023DC537CA7BBC /* UIProgressView+AFNetworking.m */,
+				045F2C2AB714D4E82186BB55 /* UIRefreshControl+AFNetworking.h */,
+				7B31B62A3B16A87FF85EAB58 /* UIRefreshControl+AFNetworking.m */,
+				251149E485AAD6013FF8DC96 /* UIWebView+AFNetworking.h */,
+				1D987252D6E4FF7804EC53F7 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		FCECBE0987D978D4E1B09BF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C6222246AF858B4B4DB32 /* Info.plist */,
+				A0AFDCA276CE776F0C3FCFAE /* Info.plist */,
+				E817C38CFD86BDD305F74AB6 /* Info.plist */,
+				2FD8E1043992BEFD1F1A1A9F /* Pods-MAOFlipViewController.modulemap */,
+				05DC8C1A2B8BC04759DD7734 /* Pods-MAOFlipViewController.xcconfig */,
+				4FE7DF09F26362798A72D44C /* Pods-MAOFlipViewController-Private.xcconfig */,
+				B2771140DE5420BE515E59A5 /* Pods-MAOFlipViewController-dummy.m */,
+				397516EA3F0C4B99193BDD97 /* Pods-MAOFlipViewController-prefix.pch */,
+				822F89603B99FFAFB897B0C2 /* Pods-MAOFlipViewController-umbrella.h */,
+				AAE6D414C3D1CAD64F0B71F3 /* Pods-Project_HotelNet-MAOFlipViewController.modulemap */,
+				911C609D567D8D19BFF2BF2C /* Pods-Project_HotelNet-MAOFlipViewController.xcconfig */,
+				E00B538AE4C7D52C1A44F05A /* Pods-Project_HotelNet-MAOFlipViewController-Private.xcconfig */,
+				0BF2D8710C657DFDF926009A /* Pods-Project_HotelNet-MAOFlipViewController-dummy.m */,
+				E9CF75D0FF4CA982FF02D636 /* Pods-Project_HotelNet-MAOFlipViewController-prefix.pch */,
+				A239E7455A8FD1DDF6B40CE6 /* Pods-Project_HotelNet-MAOFlipViewController-umbrella.h */,
+				A908DAB2C7F7E085ED38C585 /* Pods-Project_HotelNetTests-MAOFlipViewController.modulemap */,
+				52C5F7E81347DF49381C606F /* Pods-Project_HotelNetTests-MAOFlipViewController.xcconfig */,
+				B5E6B56472ED39E59F80EC4F /* Pods-Project_HotelNetTests-MAOFlipViewController-Private.xcconfig */,
+				C211766926497073B9962963 /* Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m */,
+				5AE63878F7D2368C27C9873B /* Pods-Project_HotelNetTests-MAOFlipViewController-prefix.pch */,
+				980057042336A4993DAC6390 /* Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MAOFlipViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A867A6E800C3603844FC4FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BD448CCEDA98500C308FB1 /* MAOFlipInteraction.h in Headers */,
+				941B553F87193F4FDD92171E /* MAOFlipTransition.h in Headers */,
+				CD10B9E4C29B4E37CB7E077B /* MAOFlipViewController.h in Headers */,
+				6EFB60E504D18C9A4CA9FFDC /* MAOPanGestureRecognizer.h in Headers */,
+				4640AB3CCE6D91ECE011CC62 /* Pods-Project_HotelNetTests-MAOFlipViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1819053E784EB4F86FA0D835 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C95D580158ED48A6BA46FD2 /* Pods-Project_HotelNetTests-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A11D4A5063AAAD2E669944E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E55F404B4868CFE456F9C8 /* Pods-Project_HotelNet-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34585D8DB36EE9D4ADEFF0D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF33A666435A5B58B19533E /* AFHTTPRequestOperation.h in Headers */,
+				2D9951F69062A6B66D6D19EE /* AFHTTPRequestOperationManager.h in Headers */,
+				3E1E4FAD9437C43310E58234 /* AFHTTPSessionManager.h in Headers */,
+				BAEB42D1CFBA3E0EEE665FDF /* AFNetworkActivityIndicatorManager.h in Headers */,
+				7BB13125851B2035C52CD7C8 /* AFNetworkReachabilityManager.h in Headers */,
+				609EA908FC4CB73E0D7A4BD2 /* AFNetworking.h in Headers */,
+				6D194D035DB8EE0B13157DC4 /* AFSecurityPolicy.h in Headers */,
+				22889BDC4A25965795AFCE4E /* AFURLConnectionOperation.h in Headers */,
+				62F728CB288A7E73FF7B6F89 /* AFURLRequestSerialization.h in Headers */,
+				11F34FC3D4A4CC8E1B7EDC8E /* AFURLResponseSerialization.h in Headers */,
+				30A9B4A13F69946050BCB4B9 /* AFURLSessionManager.h in Headers */,
+				1C944E908E4EA1710838C87E /* Pods-AFNetworking-umbrella.h in Headers */,
+				06ADE4CF6FBFB77D8A065CB1 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				F6B008CD263E7C9EA73F962E /* UIAlertView+AFNetworking.h in Headers */,
+				90C40F423E3270023582758A /* UIButton+AFNetworking.h in Headers */,
+				371B07CE15E0D0C4DFF9CA88 /* UIImageView+AFNetworking.h in Headers */,
+				770B8216B12AA8F37BA1A983 /* UIKit+AFNetworking.h in Headers */,
+				24C59ED109A343676EC5504B /* UIProgressView+AFNetworking.h in Headers */,
+				C209477BF6DB1EAE57E9C42B /* UIRefreshControl+AFNetworking.h in Headers */,
+				B291D2C94827CB121D9BB1F2 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416A93726E7DDC95EA073174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74DAF247DD58D1461138BE8 /* Pods-Project_HotelNetTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6C4C3B5622EC42C5613904 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AAB8CA3E53100C9A5031A3 /* Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF0FBAFBDA02FC863976FCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3970DE811FE45C617A617 /* MAOFlipInteraction.h in Headers */,
+				6F435F0545231ED4708EDA0C /* MAOFlipTransition.h in Headers */,
+				3E8F1D15BFBE59E1673F0A2C /* MAOFlipViewController.h in Headers */,
+				22337F96E6E6B52A41620135 /* MAOPanGestureRecognizer.h in Headers */,
+				5CF8ADF3CA02D181A5EDE65E /* Pods-Project_HotelNet-MAOFlipViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AA48C2B5651BBD46A1B7C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE1FF13C1F6EC6E00DE6D67 /* MAOFlipInteraction.h in Headers */,
+				6EAE94683B5060E0EC11632C /* MAOFlipTransition.h in Headers */,
+				5ACC98E05E3C529FAF2A9ED4 /* MAOFlipViewController.h in Headers */,
+				E64191D5C97539BB5A90A75B /* MAOPanGestureRecognizer.h in Headers */,
+				8657129552A49D33EA0BDC6B /* Pods-MAOFlipViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8936305576D170469745470 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C45925A3EAF3FFCA6F2875B /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D6F52E953D6F40C271BA21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE4BB116534843528B4FBD5 /* Pods-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCAA2D19BD7371F16934228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527908A31C0D571F19B0EF5F /* AFHTTPRequestOperation.h in Headers */,
+				F13B96F5C829F2441316FE12 /* AFHTTPRequestOperationManager.h in Headers */,
+				5FC7953375EE6A1F14362FB1 /* AFHTTPSessionManager.h in Headers */,
+				07AB8CA7A084AD18866A96EE /* AFNetworkActivityIndicatorManager.h in Headers */,
+				1EDEF96443DF9E26BB46F978 /* AFNetworkReachabilityManager.h in Headers */,
+				C78458AD296D536C23CBDCA5 /* AFNetworking.h in Headers */,
+				0D362D1B4119E62B018717BB /* AFSecurityPolicy.h in Headers */,
+				6254F626086B4C905C8D5DB1 /* AFURLConnectionOperation.h in Headers */,
+				79A403573C343D355A5BE8C3 /* AFURLRequestSerialization.h in Headers */,
+				317284E9B8257EA416697317 /* AFURLResponseSerialization.h in Headers */,
+				0638233838379B3EEC0790BD /* AFURLSessionManager.h in Headers */,
+				BA238A01EEE045ABB24DC065 /* Pods-Project_HotelNet-AFNetworking-umbrella.h in Headers */,
+				66B80E90BB7C8D3AB78B77F2 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				42FC2ADFD464495F0AB1A43D /* UIAlertView+AFNetworking.h in Headers */,
+				823A115A7D2B358D5478A981 /* UIButton+AFNetworking.h in Headers */,
+				C03AAA884FEC315100D860D5 /* UIImageView+AFNetworking.h in Headers */,
+				091FFE258CDD90EE4308F5CA /* UIKit+AFNetworking.h in Headers */,
+				DAD037E578EDF2E705DAD377 /* UIProgressView+AFNetworking.h in Headers */,
+				CB89FF791F7ABF2F6CB7CA43 /* UIRefreshControl+AFNetworking.h in Headers */,
+				6AD999FE78380189B964959C /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CB0E681C357366B58BBDED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D80837A174A2F9168CEA808 /* Pods-Project_HotelNet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10630A3DABC5AF4BF4D1CA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79515A69E5908AD522899531 /* Pods-Project_HotelNet-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F400597D0CBA182EC2EFA60A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D48419EEC655A23E30417D /* AFHTTPRequestOperation.h in Headers */,
+				576BC58ACD1B2EB591C6B624 /* AFHTTPRequestOperationManager.h in Headers */,
+				018039F6D768F34C674C3402 /* AFHTTPSessionManager.h in Headers */,
+				2D2ADADAFBC6FE1E3AA2E6F8 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				3EC9543BEE55262347BEC72A /* AFNetworkReachabilityManager.h in Headers */,
+				437B85EAEB4FD122C1DE0F4F /* AFNetworking.h in Headers */,
+				833C7B3A82F5725A0C5F3F3E /* AFSecurityPolicy.h in Headers */,
+				17B9F5D5E9D429BC69D15D00 /* AFURLConnectionOperation.h in Headers */,
+				62BC8EC24F6DB93787F93EC2 /* AFURLRequestSerialization.h in Headers */,
+				C12AA62D05663EC416436A30 /* AFURLResponseSerialization.h in Headers */,
+				EB86AEF389E1E532B2E8850C /* AFURLSessionManager.h in Headers */,
+				F4CE08BAD92DB69652981A3C /* Pods-Project_HotelNetTests-AFNetworking-umbrella.h in Headers */,
+				6FAF42F12405B7B8A1129D0E /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				20B43E788C3895A4BEC0FF59 /* UIAlertView+AFNetworking.h in Headers */,
+				D98E6237D6DF5AE5F53A393A /* UIButton+AFNetworking.h in Headers */,
+				72EC995BFA88BAE4B25F179A /* UIImageView+AFNetworking.h in Headers */,
+				F0D26C2095462EBD6033B0FC /* UIKit+AFNetworking.h in Headers */,
+				EE553F465E0D2208F9622A18 /* UIProgressView+AFNetworking.h in Headers */,
+				C55D2D597155E96F032F8098 /* UIRefreshControl+AFNetworking.h in Headers */,
+				D966604C87D2889BAE644D9D /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE70F3C2118547F78D86ED2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744B0CD7E300F2C3D3F99665 /* Pods-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05AEAB376BB4A5C705B4D67F /* Pods-Project_HotelNetTests-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07006452983C409B243137EC /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-SwiftyJSON" */;
+			buildPhases = (
+				5787607979FA5F2C85E0127C /* Sources */,
+				5CCDFA0234D024C0B149188E /* Frameworks */,
+				4B6C4C3B5622EC42C5613904 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNetTests-SwiftyJSON";
+			productName = "Pods-Project_HotelNetTests-SwiftyJSON";
+			productReference = 5C5B13061B193998C53C31E0 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		078B307CC8B8BB492FDFC042 /* Pods-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7D794DC852856E8410AB4F /* Build configuration list for PBXNativeTarget "Pods-Alamofire" */;
+			buildPhases = (
+				97FA64DA91FDBF821A2A6EBA /* Sources */,
+				F4A549FDBB81A8808FC8333E /* Frameworks */,
+				FEE70F3C2118547F78D86ED2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Alamofire";
+			productName = "Pods-Alamofire";
+			productReference = 61AF2AAEA5652036677F1CF6 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A1A007C622FA06C5F32EF4A /* Pods-Project_HotelNetTests-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ECB6A3FE9F8B8081BC62EF /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-Alamofire" */;
+			buildPhases = (
+				95D7D0BF94CA591E94643E1F /* Sources */,
+				15A1D45701B9CED7095E1E0F /* Frameworks */,
+				1819053E784EB4F86FA0D835 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNetTests-Alamofire";
+			productName = "Pods-Project_HotelNetTests-Alamofire";
+			productReference = FAE269699055B18C212359EC /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2133E9B6E6EBF351E6E4A1E8 /* Pods-Project_HotelNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34894A4FA7A22D2D05E0B33 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests" */;
+			buildPhases = (
+				222081A2A938CB4FF4BEA720 /* Sources */,
+				09FF00E0F90F0A4C257AAF57 /* Frameworks */,
+				416A93726E7DDC95EA073174 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FF37A26BD2F72706701DF0 /* PBXTargetDependency */,
+				33D50609BCFD0C5EFB55D367 /* PBXTargetDependency */,
+				D95CCB6F7CFDA495270C43A5 /* PBXTargetDependency */,
+				D364CCA06B324BA9BFDFD5A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Project_HotelNetTests";
+			productName = "Pods-Project_HotelNetTests";
+			productReference = 04ECE3C8CC49EC5F7DFE2542 /* Pods_Project_HotelNetTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		31AE5E50A25497266888C273 /* Pods-MAOFlipViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB55E3D22BD4DDDA728D4493 /* Build configuration list for PBXNativeTarget "Pods-MAOFlipViewController" */;
+			buildPhases = (
+				75B41C46D03CE4A1634EC478 /* Sources */,
+				6BC943CC9DD0A967CB083718 /* Frameworks */,
+				B1AA48C2B5651BBD46A1B7C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MAOFlipViewController";
+			productName = "Pods-MAOFlipViewController";
+			productReference = BB44EE8DA0AD59BB47DE647A /* MAOFlipViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D14C6C91734BB7A05972670 /* Pods-Project_HotelNet-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E76D16F0C6FC765FB4FF27 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-Alamofire" */;
+			buildPhases = (
+				36EB0110F0837EC8CB093099 /* Sources */,
+				ECBD8703AE65795F3DF92984 /* Frameworks */,
+				F10630A3DABC5AF4BF4D1CA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNet-Alamofire";
+			productName = "Pods-Project_HotelNet-Alamofire";
+			productReference = FB92A72A707D1528128D6114 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		728B1B792BE75C089F6B95D5 /* Pods-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA1013A3A317BFFB70C18AA /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */;
+			buildPhases = (
+				00CC3E88E371DD0039EB2618 /* Sources */,
+				BE30C2C3F088432933FE100F /* Frameworks */,
+				34585D8DB36EE9D4ADEFF0D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AFNetworking";
+			productName = "Pods-AFNetworking";
+			productReference = CB1680391CEAAEF2F7DB7D65 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88A570D25C3669FEC36AAA73 /* Pods-Project_HotelNetTests-MAOFlipViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABC78EDCD5C702BABE362AA /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-MAOFlipViewController" */;
+			buildPhases = (
+				D736BCEAD6A20FF4C666235E /* Sources */,
+				6A10C0E885FEDE7E8746A229 /* Frameworks */,
+				0A867A6E800C3603844FC4FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNetTests-MAOFlipViewController";
+			productName = "Pods-Project_HotelNetTests-MAOFlipViewController";
+			productReference = FC99B6F80B6D94F6EB3076AB /* MAOFlipViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D1F0C4A12747BBDA2AD8E58 /* Pods-Project_HotelNet-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDC467666AA0920BCF23CEC /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-AFNetworking" */;
+			buildPhases = (
+				95566139A605BB80D09EA81B /* Sources */,
+				7C427991285DB96ACF9273B2 /* Frameworks */,
+				CBCAA2D19BD7371F16934228 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNet-AFNetworking";
+			productName = "Pods-Project_HotelNet-AFNetworking";
+			productReference = DB9AF83D81F00653EE0E97A5 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C79408AF94FB20FBBB64B086 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67CB790432D26D97A1EA0633 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				12380D872EE9EC66A62725A7 /* Sources */,
+				8D309978207193F7A79A6ABE /* Frameworks */,
+				C8936305576D170469745470 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAAF7F6FAD4165D15C303C99 /* PBXTargetDependency */,
+				8EEA39537D713F6FEC03BAA1 /* PBXTargetDependency */,
+				E44FF72E71B69A89B7D81B4F /* PBXTargetDependency */,
+				51979481F7C4538254638869 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0AB45025669894CCF1016F9F /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E18281DB28CFDEC21607ACAC /* Pods-Project_HotelNet-MAOFlipViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99536D8B47E3D442CED24F4 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-MAOFlipViewController" */;
+			buildPhases = (
+				7EBDD0E30896981B7B7E13F0 /* Sources */,
+				359515246EEBB764B5125EEE /* Frameworks */,
+				5CF0FBAFBDA02FC863976FCB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNet-MAOFlipViewController";
+			productName = "Pods-Project_HotelNet-MAOFlipViewController";
+			productReference = ACBAB8495AC59BE2BAE70183 /* MAOFlipViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBE3127DBD1D0387377D846F /* Pods-Project_HotelNet-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BB13C5262AF10AA4408D75 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-SwiftyJSON" */;
+			buildPhases = (
+				C606B7CF023873D185B23380 /* Sources */,
+				0437ACD58A4568C114D9C52F /* Frameworks */,
+				1A11D4A5063AAAD2E669944E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNet-SwiftyJSON";
+			productName = "Pods-Project_HotelNet-SwiftyJSON";
+			productReference = BB7997215E671648BB9F3349 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED0C7051F3111E363D718FF0 /* Pods-Project_HotelNetTests-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756D7358933E440CF85D12A4 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-AFNetworking" */;
+			buildPhases = (
+				B7102FFD013E52B633614F6B /* Sources */,
+				FECF5C45A5360C0EB5F3A8A9 /* Frameworks */,
+				F400597D0CBA182EC2EFA60A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Project_HotelNetTests-AFNetworking";
+			productName = "Pods-Project_HotelNetTests-AFNetworking";
+			productReference = 1F3370DD07913C78DAC5B003 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4C023CDABFD14D3C1E45291 /* Pods-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FFC9869A7A163E54690560 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJSON" */;
+			buildPhases = (
+				366D2E48F598558DF685DA32 /* Sources */,
+				4E712D54CB3E74EC26A1BF15 /* Frameworks */,
+				C9D6F52E953D6F40C271BA21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftyJSON";
+			productName = "Pods-SwiftyJSON";
+			productReference = 3C366F9507923111D799C162 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC5738EE1AE386066DF968A6 /* Pods-Project_HotelNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BC885E32E4B553C144BD0F /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet" */;
+			buildPhases = (
+				C5ACB02A7F88ADEDBE474CCD /* Sources */,
+				39703A7219CD6097A274541C /* Frameworks */,
+				D2CB0E681C357366B58BBDED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC954FA37386C268D585B77 /* PBXTargetDependency */,
+				DC5AC7C06DED94F3D5D6C8ED /* PBXTargetDependency */,
+				A9CD7CA028A3632A04C83C6F /* PBXTargetDependency */,
+				4CD870EB0026D24CAF80EE70 /* PBXTargetDependency */,
+			);
+			name = "Pods-Project_HotelNet";
+			productName = "Pods-Project_HotelNet";
+			productReference = B275F0350ACDEDC8AF4BBC15 /* Pods_Project_HotelNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5545C360D35ECE45243DE757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D2BA66102637C4E358F4F82A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D782B985DD88853F7A23338C;
+			productRefGroup = 379DEFAD32F56734F5649C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C79408AF94FB20FBBB64B086 /* Pods */,
+				728B1B792BE75C089F6B95D5 /* Pods-AFNetworking */,
+				078B307CC8B8BB492FDFC042 /* Pods-Alamofire */,
+				31AE5E50A25497266888C273 /* Pods-MAOFlipViewController */,
+				FC5738EE1AE386066DF968A6 /* Pods-Project_HotelNet */,
+				9D1F0C4A12747BBDA2AD8E58 /* Pods-Project_HotelNet-AFNetworking */,
+				4D14C6C91734BB7A05972670 /* Pods-Project_HotelNet-Alamofire */,
+				E18281DB28CFDEC21607ACAC /* Pods-Project_HotelNet-MAOFlipViewController */,
+				EBE3127DBD1D0387377D846F /* Pods-Project_HotelNet-SwiftyJSON */,
+				2133E9B6E6EBF351E6E4A1E8 /* Pods-Project_HotelNetTests */,
+				ED0C7051F3111E363D718FF0 /* Pods-Project_HotelNetTests-AFNetworking */,
+				1A1A007C622FA06C5F32EF4A /* Pods-Project_HotelNetTests-Alamofire */,
+				88A570D25C3669FEC36AAA73 /* Pods-Project_HotelNetTests-MAOFlipViewController */,
+				05AEAB376BB4A5C705B4D67F /* Pods-Project_HotelNetTests-SwiftyJSON */,
+				F4C023CDABFD14D3C1E45291 /* Pods-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CC3E88E371DD0039EB2618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454ADBE538F0E0353E8CE625 /* AFHTTPRequestOperation.m in Sources */,
+				6944755C5238DE543E430771 /* AFHTTPRequestOperationManager.m in Sources */,
+				3FCBC96F824DEE5A286CA123 /* AFHTTPSessionManager.m in Sources */,
+				08543988CC250BBDE9EDD481 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				DF480C19AF62ACC0AA04CD11 /* AFNetworkReachabilityManager.m in Sources */,
+				BBACF3264687EFF4E025F4DF /* AFSecurityPolicy.m in Sources */,
+				7D16A610787265F5D68EBAA6 /* AFURLConnectionOperation.m in Sources */,
+				F7E5EBD0FD4F628DBDD88613 /* AFURLRequestSerialization.m in Sources */,
+				EAD0A0FB0C13320262AB4CA8 /* AFURLResponseSerialization.m in Sources */,
+				2C9A823A5227119091F5315B /* AFURLSessionManager.m in Sources */,
+				7DE4ECA011422EEAF0A4873D /* Pods-AFNetworking-dummy.m in Sources */,
+				F664C17AF3DE403B65B83AAE /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				0100E5D2CA332DE6BD3C37F5 /* UIAlertView+AFNetworking.m in Sources */,
+				20FC3945784FC8D0A4000EFA /* UIButton+AFNetworking.m in Sources */,
+				DA85828402A9A74FB7FAB5BE /* UIImageView+AFNetworking.m in Sources */,
+				B550D6B1FF2EB4AB1357A71E /* UIProgressView+AFNetworking.m in Sources */,
+				A01ADA9637886ABA3E384061 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CCABF8477C4587B42E241598 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12380D872EE9EC66A62725A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E06A78A05755E3924903C56 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222081A2A938CB4FF4BEA720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F4651CBDD771B3F846A1B /* Pods-Project_HotelNetTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366D2E48F598558DF685DA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9726A3B20D688D035472284E /* Pods-SwiftyJSON-dummy.m in Sources */,
+				F07CE359A7F8DB802368767C /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EB0110F0837EC8CB093099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41AFEBF1D6F07DAFFE2B2B /* Alamofire.swift in Sources */,
+				415340DC24B242D1C6FFC8A8 /* Download.swift in Sources */,
+				BC1122695E5BAFC43A442D0E /* Manager.swift in Sources */,
+				593E32F7A9FD4EE634F0AFE0 /* ParameterEncoding.swift in Sources */,
+				E3165E9E8A21A69F7ABFAAA6 /* Pods-Project_HotelNet-Alamofire-dummy.m in Sources */,
+				BAFB3122D3E33F988846D4CD /* Request.swift in Sources */,
+				A7758753C855A53A482BA085 /* ResponseSerialization.swift in Sources */,
+				4B01DC9C82DB8E8D776CEBF1 /* Upload.swift in Sources */,
+				3F64154BCBBF0CF15D2B10F3 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5787607979FA5F2C85E0127C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2081D3A257536569888DE9 /* Pods-Project_HotelNetTests-SwiftyJSON-dummy.m in Sources */,
+				C9788F502CEF4E132CEE8FB9 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B41C46D03CE4A1634EC478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8156793E19F211BDD22D49 /* MAOFlipInteraction.m in Sources */,
+				AE960E9AC639F044AE3BB8A9 /* MAOFlipTransition.m in Sources */,
+				0BE141F003CD6CFEE0649905 /* MAOFlipViewController.m in Sources */,
+				1D727E427019B7FBFB582143 /* MAOPanGestureRecognizer.m in Sources */,
+				BCA95E9C77CD7C11F1918347 /* Pods-MAOFlipViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBDD0E30896981B7B7E13F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6C7A8343BC4ACF86C64F3 /* MAOFlipInteraction.m in Sources */,
+				E3487B9534A7A957C94FAE18 /* MAOFlipTransition.m in Sources */,
+				CF6C14D342E8950EEFBADC50 /* MAOFlipViewController.m in Sources */,
+				076B45141CBE9BBE72669413 /* MAOPanGestureRecognizer.m in Sources */,
+				CAC835D35FC3AAB14678A945 /* Pods-Project_HotelNet-MAOFlipViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95566139A605BB80D09EA81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77EB44CC1BD2257B3BD8DDE /* AFHTTPRequestOperation.m in Sources */,
+				56E67A572EE0FD144720921D /* AFHTTPRequestOperationManager.m in Sources */,
+				A4244217EB5FF53B80A54299 /* AFHTTPSessionManager.m in Sources */,
+				591F700F5A7E52F5A1042699 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E0C056F9DF00984C6AF12E0A /* AFNetworkReachabilityManager.m in Sources */,
+				8CF67B313316DA50F386209D /* AFSecurityPolicy.m in Sources */,
+				8EE8B98184C7038135710A1A /* AFURLConnectionOperation.m in Sources */,
+				00271ACCC13DE3DA74D8B6A2 /* AFURLRequestSerialization.m in Sources */,
+				D111F9FF128E5069D5E0B1B0 /* AFURLResponseSerialization.m in Sources */,
+				4ACC8811116FAD48D5267BDE /* AFURLSessionManager.m in Sources */,
+				3AB8DCAEFF6C47605F8F99BB /* Pods-Project_HotelNet-AFNetworking-dummy.m in Sources */,
+				BE0C647394A52D8AA0D97751 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				D322C5F3824E2B274DB4200F /* UIAlertView+AFNetworking.m in Sources */,
+				042A0B95EDD68D7B3C23BCC1 /* UIButton+AFNetworking.m in Sources */,
+				8E6DC648F3D018CE9A75F714 /* UIImageView+AFNetworking.m in Sources */,
+				C437A01B578B43BA5B6BB430 /* UIProgressView+AFNetworking.m in Sources */,
+				87E067572D96C601E1F768E8 /* UIRefreshControl+AFNetworking.m in Sources */,
+				AF42F496C2C4A25D4DB24D8E /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D7D0BF94CA591E94643E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D11EA9436C764A3DC020923 /* Alamofire.swift in Sources */,
+				0455A48639CA179E8B717DB3 /* Download.swift in Sources */,
+				2895B48E11B762E7D2AF0041 /* Manager.swift in Sources */,
+				A4E9658B63B0BF90F88C90D5 /* ParameterEncoding.swift in Sources */,
+				9F6E973F726168A35AE075FB /* Pods-Project_HotelNetTests-Alamofire-dummy.m in Sources */,
+				1B8748D2739011E281BFB2B7 /* Request.swift in Sources */,
+				2D43A53FC27D5CB74B2E9EEC /* ResponseSerialization.swift in Sources */,
+				446C8DD6F041510099A8F265 /* Upload.swift in Sources */,
+				2A47A029210D7646C1967196 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA64DA91FDBF821A2A6EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB582470617EF04D5BD05D3 /* Alamofire.swift in Sources */,
+				FFEEE162BC302291B739D512 /* Download.swift in Sources */,
+				F9E6642ED1EF762AABA762C4 /* Manager.swift in Sources */,
+				7ACAF1F5F4743044BA0BE983 /* ParameterEncoding.swift in Sources */,
+				6252B8F9FFA0981326BFAF9F /* Pods-Alamofire-dummy.m in Sources */,
+				1AA17A304218B2CB299717DF /* Request.swift in Sources */,
+				448A7EF90304FE97019B22CA /* ResponseSerialization.swift in Sources */,
+				1E639343162B052D55311B41 /* Upload.swift in Sources */,
+				AA7D066790DB09F2109F45A6 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7102FFD013E52B633614F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D900B7639CA0EE34A01D80 /* AFHTTPRequestOperation.m in Sources */,
+				EBDD87960F69A29FE316F938 /* AFHTTPRequestOperationManager.m in Sources */,
+				804287DE740D250AEDF9082D /* AFHTTPSessionManager.m in Sources */,
+				E7E4DBF7AAC551407F1425A0 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				0D77CC1DFA58D74E82B38814 /* AFNetworkReachabilityManager.m in Sources */,
+				83F5E91B013946C0F47EA23E /* AFSecurityPolicy.m in Sources */,
+				837B7E7D9F0FD54107193D91 /* AFURLConnectionOperation.m in Sources */,
+				9BC30C4A06EE138C3B875F3F /* AFURLRequestSerialization.m in Sources */,
+				06879D44C98F793039A69602 /* AFURLResponseSerialization.m in Sources */,
+				E5EBAA2E83C14E58FBBD3F7D /* AFURLSessionManager.m in Sources */,
+				1A3039E48487547516EF58B3 /* Pods-Project_HotelNetTests-AFNetworking-dummy.m in Sources */,
+				D030E591816FA89E1AC1463C /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				EF5DC5B199F2BB917B90DC41 /* UIAlertView+AFNetworking.m in Sources */,
+				14D3E650B205C5E5AD4883ED /* UIButton+AFNetworking.m in Sources */,
+				134A2293A84E87BC055D1D86 /* UIImageView+AFNetworking.m in Sources */,
+				291C7C3BE5F0C0A61F4C7EE2 /* UIProgressView+AFNetworking.m in Sources */,
+				617B92AC4CFB4E7496B885D8 /* UIRefreshControl+AFNetworking.m in Sources */,
+				3191743AF030A14E6F0DE22E /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5ACB02A7F88ADEDBE474CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD40FA04DD587B894928E2F /* Pods-Project_HotelNet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606B7CF023873D185B23380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A9AF26FB5251DAE27D9C72 /* Pods-Project_HotelNet-SwiftyJSON-dummy.m in Sources */,
+				479B1DB23FA8C4C205B6F149 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D736BCEAD6A20FF4C666235E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778026838038E2503D4572E9 /* MAOFlipInteraction.m in Sources */,
+				DCA2CC622E1E4C9D536AA63C /* MAOFlipTransition.m in Sources */,
+				9D4565110BA345889BE16C7C /* MAOFlipViewController.m in Sources */,
+				7E8C63F3ECF3E85FC9541C5E /* MAOPanGestureRecognizer.m in Sources */,
+				3C45DFD5952297536014AB7C /* Pods-Project_HotelNetTests-MAOFlipViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D50609BCFD0C5EFB55D367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNetTests-Alamofire";
+			target = 1A1A007C622FA06C5F32EF4A /* Pods-Project_HotelNetTests-Alamofire */;
+			targetProxy = 3ACBC9F88EB986EEB61A3E9A /* PBXContainerItemProxy */;
+		};
+		4CD870EB0026D24CAF80EE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNet-SwiftyJSON";
+			target = EBE3127DBD1D0387377D846F /* Pods-Project_HotelNet-SwiftyJSON */;
+			targetProxy = CA4680000C9AF22F64A2CECE /* PBXContainerItemProxy */;
+		};
+		51979481F7C4538254638869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftyJSON";
+			target = F4C023CDABFD14D3C1E45291 /* Pods-SwiftyJSON */;
+			targetProxy = 0469F6AE379B44D28477AE73 /* PBXContainerItemProxy */;
+		};
+		8EEA39537D713F6FEC03BAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Alamofire";
+			target = 078B307CC8B8BB492FDFC042 /* Pods-Alamofire */;
+			targetProxy = F1E2A85A4AD84BE2D3FB54AF /* PBXContainerItemProxy */;
+		};
+		A7FF37A26BD2F72706701DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNetTests-AFNetworking";
+			target = ED0C7051F3111E363D718FF0 /* Pods-Project_HotelNetTests-AFNetworking */;
+			targetProxy = BDB248B8C7020AA34DE968E4 /* PBXContainerItemProxy */;
+		};
+		A9CD7CA028A3632A04C83C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNet-MAOFlipViewController";
+			target = E18281DB28CFDEC21607ACAC /* Pods-Project_HotelNet-MAOFlipViewController */;
+			targetProxy = D02F69066146632F10A04C28 /* PBXContainerItemProxy */;
+		};
+		D364CCA06B324BA9BFDFD5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNetTests-SwiftyJSON";
+			target = 05AEAB376BB4A5C705B4D67F /* Pods-Project_HotelNetTests-SwiftyJSON */;
+			targetProxy = 8E6F663D61BF3B9F24ECC3CC /* PBXContainerItemProxy */;
+		};
+		D95CCB6F7CFDA495270C43A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNetTests-MAOFlipViewController";
+			target = 88A570D25C3669FEC36AAA73 /* Pods-Project_HotelNetTests-MAOFlipViewController */;
+			targetProxy = 5E267DCAAE0FB7D53A9D6C02 /* PBXContainerItemProxy */;
+		};
+		DAAF7F6FAD4165D15C303C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFNetworking";
+			target = 728B1B792BE75C089F6B95D5 /* Pods-AFNetworking */;
+			targetProxy = B9BB9C27A3DC6F8174D7EFE2 /* PBXContainerItemProxy */;
+		};
+		DC5AC7C06DED94F3D5D6C8ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNet-Alamofire";
+			target = 4D14C6C91734BB7A05972670 /* Pods-Project_HotelNet-Alamofire */;
+			targetProxy = F83FBC6F04404F545010D59F /* PBXContainerItemProxy */;
+		};
+		DCC954FA37386C268D585B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Project_HotelNet-AFNetworking";
+			target = 9D1F0C4A12747BBDA2AD8E58 /* Pods-Project_HotelNet-AFNetworking */;
+			targetProxy = 84036964E73789871D2E0F72 /* PBXContainerItemProxy */;
+		};
+		E44FF72E71B69A89B7D81B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MAOFlipViewController";
+			target = 31AE5E50A25497266888C273 /* Pods-MAOFlipViewController */;
+			targetProxy = EF4E653DC0C4CFF98D5F5D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B8F7713AD96AD0F2D3013D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE49D70DFBD44F5032CD0486 /* Pods-Project_HotelNetTests-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D712C427ACF579CC30F2922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06FA9CFECF6B63D7BC569C5 /* Pods-Project_HotelNetTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests/Pods-Project_HotelNetTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Project_HotelNetTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		168A64CC50A7267850B0255A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3992961F076E5929E87ABA67 /* Pods-Project_HotelNet-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-SwiftyJSON/Pods-Project_HotelNet-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-SwiftyJSON/Pods-Project_HotelNet-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17FBD63D1EFAD5DBBC3B64B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E6B56472ED39E59F80EC4F /* Pods-Project_HotelNetTests-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-MAOFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MAOFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24E9E108848BED75D72CB254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60678AFE517E2688D94BCC01 /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CC5A75B9C8B24A8F5962A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A384E4D05428378532A900 /* Pods-Project_HotelNet-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F85B5569FD2473FD705A3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00B538AE4C7D52C1A44F05A /* Pods-Project_HotelNet-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-MAOFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MAOFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34A081190DD09BD0B30A0223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6645381B6118372EDCA479A4 /* Pods-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Alamofire/Pods-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Alamofire/Pods-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36E4EF227740AA47371367C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60678AFE517E2688D94BCC01 /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C14797624D115F47B80DBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E952670D496C53F4062D05 /* Pods-Project_HotelNetTests-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42240BFB8BEC380F0FA83CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E6B56472ED39E59F80EC4F /* Pods-Project_HotelNetTests-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-MAOFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-MAOFlipViewController/Pods-Project_HotelNetTests-MAOFlipViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MAOFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		514ADB57298EF69940952505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725B6254CA2F2C1A888AA9AF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59096A2D1BFEBEC42159CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBBA003AC5450E1DDFAF9D3 /* Pods-Project_HotelNet-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EF231EC29F858DB7CBE5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E5D8FE5A288CAA1B4917E8 /* Pods-Project_HotelNet.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet/Pods-Project_HotelNet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Project_HotelNet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		636A2D99C3F79015749521EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		640B4294A652D5C45B41CACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C5494DAA0C46134FAF5DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A9942352F7CAAE4CE4BE38 /* Pods-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7123D00822640E62BC5AEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBBA003AC5450E1DDFAF9D3 /* Pods-Project_HotelNet-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-Alamofire/Pods-Project_HotelNet-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7765B0C30BF0528B7E40D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73686668476AFD0E4D7748F /* Pods-Project_HotelNetTests-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78327DD551D96E1C6E138075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585532C988968F841B4A10C6 /* Pods-Project_HotelNetTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests/Pods-Project_HotelNetTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Project_HotelNetTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F2795204CF9157200BC6A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00B538AE4C7D52C1A44F05A /* Pods-Project_HotelNet-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-MAOFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-MAOFlipViewController/Pods-Project_HotelNet-MAOFlipViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MAOFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		905CB46C913FDFA5AADEB529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6645381B6118372EDCA479A4 /* Pods-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Alamofire/Pods-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Alamofire/Pods-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4DF7CA9AEA78FF43D163732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE7DF09F26362798A72D44C /* Pods-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAOFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MAOFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEDBB56560A7C1E94C02918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC4DFB2C4118494123998D9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B84E415EF295E30F0BAD7BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE49D70DFBD44F5032CD0486 /* Pods-Project_HotelNetTests-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-Alamofire/Pods-Project_HotelNetTests-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA45E222F865370738262579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E952670D496C53F4062D05 /* Pods-Project_HotelNetTests-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-AFNetworking/Pods-Project_HotelNetTests-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C851B0420E0E6BC744FB08A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73686668476AFD0E4D7748F /* Pods-Project_HotelNetTests-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNetTests-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNetTests-SwiftyJSON/Pods-Project_HotelNetTests-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA8BB90478C81CEF1025690D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A9942352F7CAAE4CE4BE38 /* Pods-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyJSON/Pods-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB260AC88E5C0FFCB055B4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A384E4D05428378532A900 /* Pods-Project_HotelNet-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-AFNetworking/Pods-Project_HotelNet-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB4B71303A64A2796D421F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E338AC318517B5A2AAE4C8 /* Pods-Project_HotelNet.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet/Pods-Project_HotelNet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Project_HotelNet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E46CC15647FF42C6BC0E79C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3992961F076E5929E87ABA67 /* Pods-Project_HotelNet-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Project_HotelNet-SwiftyJSON/Pods-Project_HotelNet-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Project_HotelNet-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Project_HotelNet-SwiftyJSON/Pods-Project_HotelNet-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF8994875896C9DFC7B1CB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE7DF09F26362798A72D44C /* Pods-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAOFlipViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MAOFlipViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ECB6A3FE9F8B8081BC62EF /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84E415EF295E30F0BAD7BF8 /* Debug */,
+				0B8F7713AD96AD0F2D3013D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07006452983C409B243137EC /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C851B0420E0E6BC744FB08A9 /* Debug */,
+				7765B0C30BF0528B7E40D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDC467666AA0920BCF23CEC /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB260AC88E5C0FFCB055B4C9 /* Debug */,
+				2CC5A75B9C8B24A8F5962A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67CB790432D26D97A1EA0633 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514ADB57298EF69940952505 /* Debug */,
+				AEEDBB56560A7C1E94C02918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756D7358933E440CF85D12A4 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA45E222F865370738262579 /* Debug */,
+				3C14797624D115F47B80DBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7D794DC852856E8410AB4F /* Build configuration list for PBXNativeTarget "Pods-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905CB46C913FDFA5AADEB529 /* Debug */,
+				34A081190DD09BD0B30A0223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34894A4FA7A22D2D05E0B33 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78327DD551D96E1C6E138075 /* Debug */,
+				0D712C427ACF579CC30F2922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FFC9869A7A163E54690560 /* Build configuration list for PBXNativeTarget "Pods-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C5494DAA0C46134FAF5DBE /* Debug */,
+				CA8BB90478C81CEF1025690D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99536D8B47E3D442CED24F4 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-MAOFlipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F85B5569FD2473FD705A3F2 /* Debug */,
+				8F2795204CF9157200BC6A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB55E3D22BD4DDDA728D4493 /* Build configuration list for PBXNativeTarget "Pods-MAOFlipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8994875896C9DFC7B1CB93 /* Debug */,
+				A4DF7CA9AEA78FF43D163732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA1013A3A317BFFB70C18AA /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E9E108848BED75D72CB254 /* Debug */,
+				36E4EF227740AA47371367C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BC885E32E4B553C144BD0F /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4B71303A64A2796D421F97 /* Debug */,
+				5EF231EC29F858DB7CBE5303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABC78EDCD5C702BABE362AA /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNetTests-MAOFlipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FBD63D1EFAD5DBBC3B64B3 /* Debug */,
+				42240BFB8BEC380F0FA83CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BA66102637C4E358F4F82A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636A2D99C3F79015749521EC /* Debug */,
+				640B4294A652D5C45B41CACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E76D16F0C6FC765FB4FF27 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59096A2D1BFEBEC42159CD5E /* Debug */,
+				7123D00822640E62BC5AEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4BB13C5262AF10AA4408D75 /* Build configuration list for PBXNativeTarget "Pods-Project_HotelNet-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168A64CC50A7267850B0255A /* Debug */,
+				E46CC15647FF42C6BC0E79C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5545C360D35ECE45243DE757 /* Project object */;
+}

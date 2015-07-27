@@ -1,0 +1,6 @@
+framework module SwiftyJSON {
+  umbrella header "Pods-Project_HotelNetTests-SwiftyJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
